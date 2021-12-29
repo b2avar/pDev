@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Tednokent\\cSharp\\pDev\\pDev.csproj": {}
+    "D:\\Users\\Tednokent\\CSharp\\pDev\\First\\pDev.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Tednokent\\cSharp\\pDev\\pDev.csproj": {
+    "D:\\Users\\Tednokent\\CSharp\\pDev\\First\\pDev.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Tednokent\\cSharp\\pDev\\pDev.csproj",
+        "projectUniqueName": "D:\\Users\\Tednokent\\CSharp\\pDev\\First\\pDev.csproj",
         "projectName": "pDev",
-        "projectPath": "D:\\Users\\Tednokent\\cSharp\\pDev\\pDev.csproj",
+        "projectPath": "D:\\Users\\Tednokent\\CSharp\\pDev\\First\\pDev.csproj",
         "packagesPath": "C:\\Users\\Tednokent\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Tednokent\\cSharp\\pDev\\obj\\",
+        "outputPath": "D:\\Users\\Tednokent\\CSharp\\pDev\\First\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tednokent\\AppData\\Roaming\\NuGet\\NuGet.Config",
