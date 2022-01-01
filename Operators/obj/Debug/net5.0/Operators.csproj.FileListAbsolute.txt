@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\pDev\Operators\bin\Debug\net5.0\Operators.exe
+D:\Users\Tednokent\CSharp\pDev\Operators\bin\Debug\net5.0\Operators.deps.json
+D:\Users\Tednokent\CSharp\pDev\Operators\bin\Debug\net5.0\Operators.runtimeconfig.json
+D:\Users\Tednokent\CSharp\pDev\Operators\bin\Debug\net5.0\Operators.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\pDev\Operators\bin\Debug\net5.0\Operators.dll
+D:\Users\Tednokent\CSharp\pDev\Operators\bin\Debug\net5.0\ref\Operators.dll
+D:\Users\Tednokent\CSharp\pDev\Operators\bin\Debug\net5.0\Operators.pdb
+D:\Users\Tednokent\CSharp\pDev\Operators\obj\Debug\net5.0\Operators.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\pDev\Operators\obj\Debug\net5.0\Operators.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\pDev\Operators\obj\Debug\net5.0\Operators.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Operators\obj\Debug\net5.0\Operators.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\pDev\Operators\obj\Debug\net5.0\Operators.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Operators\obj\Debug\net5.0\Operators.dll
+D:\Users\Tednokent\CSharp\pDev\Operators\obj\Debug\net5.0\ref\Operators.dll
+D:\Users\Tednokent\CSharp\pDev\Operators\obj\Debug\net5.0\Operators.pdb
+D:\Users\Tednokent\CSharp\pDev\Operators\obj\Debug\net5.0\Operators.genruntimeconfig.cache
