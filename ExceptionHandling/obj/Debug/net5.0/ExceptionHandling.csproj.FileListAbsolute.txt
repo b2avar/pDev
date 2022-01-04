@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\pDev\ExceptionHandling\bin\Debug\net5.0\ExceptionHandling.exe
+D:\Users\Tednokent\CSharp\pDev\ExceptionHandling\bin\Debug\net5.0\ExceptionHandling.deps.json
+D:\Users\Tednokent\CSharp\pDev\ExceptionHandling\bin\Debug\net5.0\ExceptionHandling.runtimeconfig.json
+D:\Users\Tednokent\CSharp\pDev\ExceptionHandling\bin\Debug\net5.0\ExceptionHandling.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\pDev\ExceptionHandling\bin\Debug\net5.0\ExceptionHandling.dll
+D:\Users\Tednokent\CSharp\pDev\ExceptionHandling\bin\Debug\net5.0\ref\ExceptionHandling.dll
+D:\Users\Tednokent\CSharp\pDev\ExceptionHandling\bin\Debug\net5.0\ExceptionHandling.pdb
+D:\Users\Tednokent\CSharp\pDev\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\pDev\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\pDev\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\pDev\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\pDev\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\pDev\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.dll
+D:\Users\Tednokent\CSharp\pDev\ExceptionHandling\obj\Debug\net5.0\ref\ExceptionHandling.dll
+D:\Users\Tednokent\CSharp\pDev\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.pdb
+D:\Users\Tednokent\CSharp\pDev\ExceptionHandling\obj\Debug\net5.0\ExceptionHandling.genruntimeconfig.cache
