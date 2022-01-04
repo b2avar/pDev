@@ -45,7 +45,7 @@ namespace ExceptionHandling
             }
             finally
             {
-                Console.WriteLine("The operation completed succec")
+                Console.WriteLine("The operation completed successfully");
             }
 
 
