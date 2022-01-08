@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\pDev\Loops\bin\Debug\net5.0\loops.exe
+D:\Users\Tednokent\CSharp\pDev\Loops\bin\Debug\net5.0\loops.deps.json
+D:\Users\Tednokent\CSharp\pDev\Loops\bin\Debug\net5.0\loops.runtimeconfig.json
+D:\Users\Tednokent\CSharp\pDev\Loops\bin\Debug\net5.0\loops.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\pDev\Loops\bin\Debug\net5.0\loops.dll
+D:\Users\Tednokent\CSharp\pDev\Loops\bin\Debug\net5.0\ref\loops.dll
+D:\Users\Tednokent\CSharp\pDev\Loops\bin\Debug\net5.0\loops.pdb
+D:\Users\Tednokent\CSharp\pDev\Loops\obj\Debug\net5.0\loops.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\pDev\Loops\obj\Debug\net5.0\loops.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\pDev\Loops\obj\Debug\net5.0\loops.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Loops\obj\Debug\net5.0\loops.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\pDev\Loops\obj\Debug\net5.0\loops.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Loops\obj\Debug\net5.0\loops.dll
+D:\Users\Tednokent\CSharp\pDev\Loops\obj\Debug\net5.0\ref\loops.dll
+D:\Users\Tednokent\CSharp\pDev\Loops\obj\Debug\net5.0\loops.pdb
+D:\Users\Tednokent\CSharp\pDev\Loops\obj\Debug\net5.0\loops.genruntimeconfig.cache
