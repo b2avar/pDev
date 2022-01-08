@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\pDev\Switch-Case\bin\Debug\net5.0\Switch-Case.exe
+D:\Users\Tednokent\CSharp\pDev\Switch-Case\bin\Debug\net5.0\Switch-Case.deps.json
+D:\Users\Tednokent\CSharp\pDev\Switch-Case\bin\Debug\net5.0\Switch-Case.runtimeconfig.json
+D:\Users\Tednokent\CSharp\pDev\Switch-Case\bin\Debug\net5.0\Switch-Case.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\pDev\Switch-Case\bin\Debug\net5.0\Switch-Case.dll
+D:\Users\Tednokent\CSharp\pDev\Switch-Case\bin\Debug\net5.0\ref\Switch-Case.dll
+D:\Users\Tednokent\CSharp\pDev\Switch-Case\bin\Debug\net5.0\Switch-Case.pdb
+D:\Users\Tednokent\CSharp\pDev\Switch-Case\obj\Debug\net5.0\Switch-Case.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\pDev\Switch-Case\obj\Debug\net5.0\Switch-Case.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\pDev\Switch-Case\obj\Debug\net5.0\Switch-Case.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Switch-Case\obj\Debug\net5.0\Switch-Case.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\pDev\Switch-Case\obj\Debug\net5.0\Switch-Case.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Switch-Case\obj\Debug\net5.0\Switch-Case.dll
+D:\Users\Tednokent\CSharp\pDev\Switch-Case\obj\Debug\net5.0\ref\Switch-Case.dll
+D:\Users\Tednokent\CSharp\pDev\Switch-Case\obj\Debug\net5.0\Switch-Case.pdb
+D:\Users\Tednokent\CSharp\pDev\Switch-Case\obj\Debug\net5.0\Switch-Case.genruntimeconfig.cache
