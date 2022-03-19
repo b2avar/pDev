@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\pDev\ArraysII\bin\Debug\net5.0\ArraysII.exe
+D:\Users\Tednokent\CSharp\pDev\ArraysII\bin\Debug\net5.0\ArraysII.deps.json
+D:\Users\Tednokent\CSharp\pDev\ArraysII\bin\Debug\net5.0\ArraysII.runtimeconfig.json
+D:\Users\Tednokent\CSharp\pDev\ArraysII\bin\Debug\net5.0\ArraysII.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\pDev\ArraysII\bin\Debug\net5.0\ArraysII.dll
+D:\Users\Tednokent\CSharp\pDev\ArraysII\bin\Debug\net5.0\ref\ArraysII.dll
+D:\Users\Tednokent\CSharp\pDev\ArraysII\bin\Debug\net5.0\ArraysII.pdb
+D:\Users\Tednokent\CSharp\pDev\ArraysII\obj\Debug\net5.0\ArraysII.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\pDev\ArraysII\obj\Debug\net5.0\ArraysII.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\pDev\ArraysII\obj\Debug\net5.0\ArraysII.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\pDev\ArraysII\obj\Debug\net5.0\ArraysII.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\pDev\ArraysII\obj\Debug\net5.0\ArraysII.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\pDev\ArraysII\obj\Debug\net5.0\ArraysII.dll
+D:\Users\Tednokent\CSharp\pDev\ArraysII\obj\Debug\net5.0\ref\ArraysII.dll
+D:\Users\Tednokent\CSharp\pDev\ArraysII\obj\Debug\net5.0\ArraysII.pdb
+D:\Users\Tednokent\CSharp\pDev\ArraysII\obj\Debug\net5.0\ArraysII.genruntimeconfig.cache
