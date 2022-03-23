@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\pDev\Methods\bin\Debug\net5.0\Methods.exe
+D:\Users\Tednokent\CSharp\pDev\Methods\bin\Debug\net5.0\Methods.deps.json
+D:\Users\Tednokent\CSharp\pDev\Methods\bin\Debug\net5.0\Methods.runtimeconfig.json
+D:\Users\Tednokent\CSharp\pDev\Methods\bin\Debug\net5.0\Methods.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\pDev\Methods\bin\Debug\net5.0\Methods.dll
+D:\Users\Tednokent\CSharp\pDev\Methods\bin\Debug\net5.0\ref\Methods.dll
+D:\Users\Tednokent\CSharp\pDev\Methods\bin\Debug\net5.0\Methods.pdb
+D:\Users\Tednokent\CSharp\pDev\Methods\obj\Debug\net5.0\Methods.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\pDev\Methods\obj\Debug\net5.0\Methods.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\pDev\Methods\obj\Debug\net5.0\Methods.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Methods\obj\Debug\net5.0\Methods.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\pDev\Methods\obj\Debug\net5.0\Methods.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Methods\obj\Debug\net5.0\Methods.dll
+D:\Users\Tednokent\CSharp\pDev\Methods\obj\Debug\net5.0\ref\Methods.dll
+D:\Users\Tednokent\CSharp\pDev\Methods\obj\Debug\net5.0\Methods.pdb
+D:\Users\Tednokent\CSharp\pDev\Methods\obj\Debug\net5.0\Methods.genruntimeconfig.cache
