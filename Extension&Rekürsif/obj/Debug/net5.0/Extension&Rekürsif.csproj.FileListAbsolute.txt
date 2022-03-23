@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\pDev\pDev\Extension&Rekürsif\bin\Debug\net5.0\Extension&Rekürsif.exe
+D:\Users\Tednokent\CSharp\pDev\pDev\Extension&Rekürsif\bin\Debug\net5.0\Extension&Rekürsif.deps.json
+D:\Users\Tednokent\CSharp\pDev\pDev\Extension&Rekürsif\bin\Debug\net5.0\Extension&Rekürsif.runtimeconfig.json
+D:\Users\Tednokent\CSharp\pDev\pDev\Extension&Rekürsif\bin\Debug\net5.0\Extension&Rekürsif.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\pDev\pDev\Extension&Rekürsif\bin\Debug\net5.0\Extension&Rekürsif.dll
+D:\Users\Tednokent\CSharp\pDev\pDev\Extension&Rekürsif\bin\Debug\net5.0\ref\Extension&Rekürsif.dll
+D:\Users\Tednokent\CSharp\pDev\pDev\Extension&Rekürsif\bin\Debug\net5.0\Extension&Rekürsif.pdb
+D:\Users\Tednokent\CSharp\pDev\pDev\Extension&Rekürsif\obj\Debug\net5.0\Extension&Rekürsif.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\pDev\pDev\Extension&Rekürsif\obj\Debug\net5.0\Extension&Rekürsif.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\pDev\pDev\Extension&Rekürsif\obj\Debug\net5.0\Extension&Rekürsif.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\pDev\pDev\Extension&Rekürsif\obj\Debug\net5.0\Extension&Rekürsif.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\pDev\pDev\Extension&Rekürsif\obj\Debug\net5.0\Extension&Rekürsif.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\pDev\pDev\Extension&Rekürsif\obj\Debug\net5.0\Extension&Rekürsif.dll
+D:\Users\Tednokent\CSharp\pDev\pDev\Extension&Rekürsif\obj\Debug\net5.0\ref\Extension&Rekürsif.dll
+D:\Users\Tednokent\CSharp\pDev\pDev\Extension&Rekürsif\obj\Debug\net5.0\Extension&Rekürsif.pdb
+D:\Users\Tednokent\CSharp\pDev\pDev\Extension&Rekürsif\obj\Debug\net5.0\Extension&Rekürsif.genruntimeconfig.cache
