@@ -1,0 +1,16 @@
+/Users/burakavar/Unity/pDev/AlgorithmsQuestions/bin/Debug/net5.0/AlgorithmsQuestions
+/Users/burakavar/Unity/pDev/AlgorithmsQuestions/bin/Debug/net5.0/AlgorithmsQuestions.deps.json
+/Users/burakavar/Unity/pDev/AlgorithmsQuestions/bin/Debug/net5.0/AlgorithmsQuestions.runtimeconfig.json
+/Users/burakavar/Unity/pDev/AlgorithmsQuestions/bin/Debug/net5.0/AlgorithmsQuestions.runtimeconfig.dev.json
+/Users/burakavar/Unity/pDev/AlgorithmsQuestions/bin/Debug/net5.0/AlgorithmsQuestions.dll
+/Users/burakavar/Unity/pDev/AlgorithmsQuestions/bin/Debug/net5.0/ref/AlgorithmsQuestions.dll
+/Users/burakavar/Unity/pDev/AlgorithmsQuestions/bin/Debug/net5.0/AlgorithmsQuestions.pdb
+/Users/burakavar/Unity/pDev/AlgorithmsQuestions/obj/Debug/net5.0/AlgorithmsQuestions.csproj.AssemblyReference.cache
+/Users/burakavar/Unity/pDev/AlgorithmsQuestions/obj/Debug/net5.0/AlgorithmsQuestions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/burakavar/Unity/pDev/AlgorithmsQuestions/obj/Debug/net5.0/AlgorithmsQuestions.AssemblyInfoInputs.cache
+/Users/burakavar/Unity/pDev/AlgorithmsQuestions/obj/Debug/net5.0/AlgorithmsQuestions.AssemblyInfo.cs
+/Users/burakavar/Unity/pDev/AlgorithmsQuestions/obj/Debug/net5.0/AlgorithmsQuestions.csproj.CoreCompileInputs.cache
+/Users/burakavar/Unity/pDev/AlgorithmsQuestions/obj/Debug/net5.0/AlgorithmsQuestions.dll
+/Users/burakavar/Unity/pDev/AlgorithmsQuestions/obj/Debug/net5.0/ref/AlgorithmsQuestions.dll
+/Users/burakavar/Unity/pDev/AlgorithmsQuestions/obj/Debug/net5.0/AlgorithmsQuestions.pdb
+/Users/burakavar/Unity/pDev/AlgorithmsQuestions/obj/Debug/net5.0/AlgorithmsQuestions.genruntimeconfig.cache
