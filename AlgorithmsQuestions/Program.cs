@@ -26,11 +26,21 @@ namespace AlgorithmsQuestions
             Console.WriteLine();
             Console.WriteLine("Devam etmek için enter'a basiniz!");
             Console.ReadKey();
-
+            
             //Bir konsol uygulamasında kullanıcıdan pozitif bir sayı girmesini isteyin (n). Sonrasında kullanıcıdan n adet kelime girmesi isteyin. Kullanıcının girişini yaptığı kelimeleri sondan başa doğru console'a yazdırın.
             Console.WriteLine("Bir pozitif sayi giriniz: ");
             int nnn = Convert.ToInt32(Console.ReadLine());
             KelimeleriSirala(nnn);
+
+            Console.WriteLine();
+            Console.WriteLine("Devam etmek için enter'a basiniz!");
+            Console.ReadKey();
+
+            //Bir konsol uygulamasında kullanıcıdan bir cümle yazması isteyin. Cümledeki toplam kelime ve harf sayısını console'a yazdırın.
+            Console.WriteLine("Bir cümle yazınız: ");
+            string cumle = Convert.ToString(Console.ReadLine());
+            CumledekiToplamKelimeveHarf(cumle);
+
    
         }
         public static void EsityadaTamBolunenSayilar(int birinciSayi, int ikinciSayi){
@@ -64,14 +74,38 @@ namespace AlgorithmsQuestions
             }
 
             Console.WriteLine("Girilen kelimelerin sondan başa dizilimi :");
+            
+            for(int j = n-1; j >=0; --j){
 
-            for (int i = n; i>= 0; i--)
-            {
-                Console.Write($"{kelimeler[i].ToString()}");
+                if(j==0){
+                    Console.Write(kelimeler[j]);
+                }
+                else{
+                    Console.Write(kelimeler[j] + ", ");
+                }
             }
         }
-    }
 
+        public static void CumledekiToplamKelimeveHarf(string param){
+
+            char[] ch = param.ToCharArray();
+            
+            int toplamHarf = 0;
+            string[] toplamKelime = param.Split(' ');
+
+            foreach (var c in ch)
+            {
+                if(char.IsLetterOrDigit(c)){
+
+                    toplamHarf++;
+                }
+            }
+
+            Console.WriteLine("Cümledeki toplam harf :" + toplamHarf);
+            Console.WriteLine("Cümledeki toplam kelime :" + toplamKelime.Length);
+
+        }
+    }
     public static class MyExtension{
         public static void CiftSayilar(this int girilenSayi){
 

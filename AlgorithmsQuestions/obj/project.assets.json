@@ -8,24 +8,26 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/Users/burakavar/.nuget/packages/": {}
+    "C:\\Users\\Tednokent\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/burakavar/Unity/pDev/AlgorithmsQuestions/AlgorithmsQuestions.csproj",
+      "projectUniqueName": "D:\\Users\\Tednokent\\CSharp\\pDev\\AlgorithmsQuestions\\AlgorithmsQuestions.csproj",
       "projectName": "AlgorithmsQuestions",
-      "projectPath": "/Users/burakavar/Unity/pDev/AlgorithmsQuestions/AlgorithmsQuestions.csproj",
-      "packagesPath": "/Users/burakavar/.nuget/packages/",
-      "outputPath": "/Users/burakavar/Unity/pDev/AlgorithmsQuestions/obj/",
+      "projectPath": "D:\\Users\\Tednokent\\CSharp\\pDev\\AlgorithmsQuestions\\AlgorithmsQuestions.csproj",
+      "packagesPath": "C:\\Users\\Tednokent\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\Tednokent\\CSharp\\pDev\\AlgorithmsQuestions\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/burakavar/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Tednokent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -58,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.103/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
