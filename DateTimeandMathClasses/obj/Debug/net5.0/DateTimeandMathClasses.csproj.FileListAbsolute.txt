@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\pDev\DateTimeandMathClasses\bin\Debug\net5.0\DateTimeandMathClasses.exe
+D:\Users\Tednokent\CSharp\pDev\DateTimeandMathClasses\bin\Debug\net5.0\DateTimeandMathClasses.deps.json
+D:\Users\Tednokent\CSharp\pDev\DateTimeandMathClasses\bin\Debug\net5.0\DateTimeandMathClasses.runtimeconfig.json
+D:\Users\Tednokent\CSharp\pDev\DateTimeandMathClasses\bin\Debug\net5.0\DateTimeandMathClasses.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\pDev\DateTimeandMathClasses\bin\Debug\net5.0\DateTimeandMathClasses.dll
+D:\Users\Tednokent\CSharp\pDev\DateTimeandMathClasses\bin\Debug\net5.0\ref\DateTimeandMathClasses.dll
+D:\Users\Tednokent\CSharp\pDev\DateTimeandMathClasses\bin\Debug\net5.0\DateTimeandMathClasses.pdb
+D:\Users\Tednokent\CSharp\pDev\DateTimeandMathClasses\obj\Debug\net5.0\DateTimeandMathClasses.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\pDev\DateTimeandMathClasses\obj\Debug\net5.0\DateTimeandMathClasses.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\pDev\DateTimeandMathClasses\obj\Debug\net5.0\DateTimeandMathClasses.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\pDev\DateTimeandMathClasses\obj\Debug\net5.0\DateTimeandMathClasses.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\pDev\DateTimeandMathClasses\obj\Debug\net5.0\DateTimeandMathClasses.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\pDev\DateTimeandMathClasses\obj\Debug\net5.0\DateTimeandMathClasses.dll
+D:\Users\Tednokent\CSharp\pDev\DateTimeandMathClasses\obj\Debug\net5.0\ref\DateTimeandMathClasses.dll
+D:\Users\Tednokent\CSharp\pDev\DateTimeandMathClasses\obj\Debug\net5.0\DateTimeandMathClasses.pdb
+D:\Users\Tednokent\CSharp\pDev\DateTimeandMathClasses\obj\Debug\net5.0\DateTimeandMathClasses.genruntimeconfig.cache
