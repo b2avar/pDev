@@ -1,0 +1,16 @@
+/Users/burakavar/Unity/pDev/StringMetotlar/bin/Debug/net5.0/StringMetotlar
+/Users/burakavar/Unity/pDev/StringMetotlar/bin/Debug/net5.0/StringMetotlar.deps.json
+/Users/burakavar/Unity/pDev/StringMetotlar/bin/Debug/net5.0/StringMetotlar.runtimeconfig.json
+/Users/burakavar/Unity/pDev/StringMetotlar/bin/Debug/net5.0/StringMetotlar.runtimeconfig.dev.json
+/Users/burakavar/Unity/pDev/StringMetotlar/bin/Debug/net5.0/StringMetotlar.dll
+/Users/burakavar/Unity/pDev/StringMetotlar/bin/Debug/net5.0/ref/StringMetotlar.dll
+/Users/burakavar/Unity/pDev/StringMetotlar/bin/Debug/net5.0/StringMetotlar.pdb
+/Users/burakavar/Unity/pDev/StringMetotlar/obj/Debug/net5.0/StringMetotlar.csproj.AssemblyReference.cache
+/Users/burakavar/Unity/pDev/StringMetotlar/obj/Debug/net5.0/StringMetotlar.GeneratedMSBuildEditorConfig.editorconfig
+/Users/burakavar/Unity/pDev/StringMetotlar/obj/Debug/net5.0/StringMetotlar.AssemblyInfoInputs.cache
+/Users/burakavar/Unity/pDev/StringMetotlar/obj/Debug/net5.0/StringMetotlar.AssemblyInfo.cs
+/Users/burakavar/Unity/pDev/StringMetotlar/obj/Debug/net5.0/StringMetotlar.csproj.CoreCompileInputs.cache
+/Users/burakavar/Unity/pDev/StringMetotlar/obj/Debug/net5.0/StringMetotlar.dll
+/Users/burakavar/Unity/pDev/StringMetotlar/obj/Debug/net5.0/ref/StringMetotlar.dll
+/Users/burakavar/Unity/pDev/StringMetotlar/obj/Debug/net5.0/StringMetotlar.pdb
+/Users/burakavar/Unity/pDev/StringMetotlar/obj/Debug/net5.0/StringMetotlar.genruntimeconfig.cache
