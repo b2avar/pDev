@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\pDev\GenericList\bin\Debug\net5.0\GenericList.exe
+D:\Users\Tednokent\CSharp\pDev\GenericList\bin\Debug\net5.0\GenericList.deps.json
+D:\Users\Tednokent\CSharp\pDev\GenericList\bin\Debug\net5.0\GenericList.runtimeconfig.json
+D:\Users\Tednokent\CSharp\pDev\GenericList\bin\Debug\net5.0\GenericList.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\pDev\GenericList\bin\Debug\net5.0\GenericList.dll
+D:\Users\Tednokent\CSharp\pDev\GenericList\bin\Debug\net5.0\ref\GenericList.dll
+D:\Users\Tednokent\CSharp\pDev\GenericList\bin\Debug\net5.0\GenericList.pdb
+D:\Users\Tednokent\CSharp\pDev\GenericList\obj\Debug\net5.0\GenericList.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\pDev\GenericList\obj\Debug\net5.0\GenericList.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\pDev\GenericList\obj\Debug\net5.0\GenericList.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\pDev\GenericList\obj\Debug\net5.0\GenericList.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\pDev\GenericList\obj\Debug\net5.0\GenericList.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\pDev\GenericList\obj\Debug\net5.0\GenericList.dll
+D:\Users\Tednokent\CSharp\pDev\GenericList\obj\Debug\net5.0\ref\GenericList.dll
+D:\Users\Tednokent\CSharp\pDev\GenericList\obj\Debug\net5.0\GenericList.pdb
+D:\Users\Tednokent\CSharp\pDev\GenericList\obj\Debug\net5.0\GenericList.genruntimeconfig.cache
