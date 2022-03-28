@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\pDev\ArrayList\bin\Debug\net5.0\Array_list.exe
+D:\Users\Tednokent\CSharp\pDev\ArrayList\bin\Debug\net5.0\Array_list.deps.json
+D:\Users\Tednokent\CSharp\pDev\ArrayList\bin\Debug\net5.0\Array_list.runtimeconfig.json
+D:\Users\Tednokent\CSharp\pDev\ArrayList\bin\Debug\net5.0\Array_list.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\pDev\ArrayList\bin\Debug\net5.0\Array_list.dll
+D:\Users\Tednokent\CSharp\pDev\ArrayList\bin\Debug\net5.0\ref\Array_list.dll
+D:\Users\Tednokent\CSharp\pDev\ArrayList\bin\Debug\net5.0\Array_list.pdb
+D:\Users\Tednokent\CSharp\pDev\ArrayList\obj\Debug\net5.0\Array_list.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\pDev\ArrayList\obj\Debug\net5.0\Array_list.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\pDev\ArrayList\obj\Debug\net5.0\Array_list.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\pDev\ArrayList\obj\Debug\net5.0\Array_list.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\pDev\ArrayList\obj\Debug\net5.0\Array_list.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\pDev\ArrayList\obj\Debug\net5.0\Array_list.dll
+D:\Users\Tednokent\CSharp\pDev\ArrayList\obj\Debug\net5.0\ref\Array_list.dll
+D:\Users\Tednokent\CSharp\pDev\ArrayList\obj\Debug\net5.0\Array_list.pdb
+D:\Users\Tednokent\CSharp\pDev\ArrayList\obj\Debug\net5.0\Array_list.genruntimeconfig.cache
