@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\pDev\Dictionary_\bin\Debug\net5.0\Dictionary_.exe
+D:\Users\Tednokent\CSharp\pDev\Dictionary_\bin\Debug\net5.0\Dictionary_.deps.json
+D:\Users\Tednokent\CSharp\pDev\Dictionary_\bin\Debug\net5.0\Dictionary_.runtimeconfig.json
+D:\Users\Tednokent\CSharp\pDev\Dictionary_\bin\Debug\net5.0\Dictionary_.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\pDev\Dictionary_\bin\Debug\net5.0\Dictionary_.dll
+D:\Users\Tednokent\CSharp\pDev\Dictionary_\bin\Debug\net5.0\ref\Dictionary_.dll
+D:\Users\Tednokent\CSharp\pDev\Dictionary_\bin\Debug\net5.0\Dictionary_.pdb
+D:\Users\Tednokent\CSharp\pDev\Dictionary_\obj\Debug\net5.0\Dictionary_.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\pDev\Dictionary_\obj\Debug\net5.0\Dictionary_.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\pDev\Dictionary_\obj\Debug\net5.0\Dictionary_.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Dictionary_\obj\Debug\net5.0\Dictionary_.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\pDev\Dictionary_\obj\Debug\net5.0\Dictionary_.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Dictionary_\obj\Debug\net5.0\Dictionary_.dll
+D:\Users\Tednokent\CSharp\pDev\Dictionary_\obj\Debug\net5.0\ref\Dictionary_.dll
+D:\Users\Tednokent\CSharp\pDev\Dictionary_\obj\Debug\net5.0\Dictionary_.pdb
+D:\Users\Tednokent\CSharp\pDev\Dictionary_\obj\Debug\net5.0\Dictionary_.genruntimeconfig.cache
