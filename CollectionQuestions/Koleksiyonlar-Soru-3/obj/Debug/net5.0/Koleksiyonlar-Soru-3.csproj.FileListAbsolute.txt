@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\pDev\Collection Questions\Koleksiyonlar-Soru-3\bin\Debug\net5.0\Koleksiyonlar-Soru-3.exe
+D:\Users\Tednokent\CSharp\pDev\Collection Questions\Koleksiyonlar-Soru-3\bin\Debug\net5.0\Koleksiyonlar-Soru-3.deps.json
+D:\Users\Tednokent\CSharp\pDev\Collection Questions\Koleksiyonlar-Soru-3\bin\Debug\net5.0\Koleksiyonlar-Soru-3.runtimeconfig.json
+D:\Users\Tednokent\CSharp\pDev\Collection Questions\Koleksiyonlar-Soru-3\bin\Debug\net5.0\Koleksiyonlar-Soru-3.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\pDev\Collection Questions\Koleksiyonlar-Soru-3\bin\Debug\net5.0\Koleksiyonlar-Soru-3.dll
+D:\Users\Tednokent\CSharp\pDev\Collection Questions\Koleksiyonlar-Soru-3\bin\Debug\net5.0\ref\Koleksiyonlar-Soru-3.dll
+D:\Users\Tednokent\CSharp\pDev\Collection Questions\Koleksiyonlar-Soru-3\bin\Debug\net5.0\Koleksiyonlar-Soru-3.pdb
+D:\Users\Tednokent\CSharp\pDev\Collection Questions\Koleksiyonlar-Soru-3\obj\Debug\net5.0\Koleksiyonlar-Soru-3.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\pDev\Collection Questions\Koleksiyonlar-Soru-3\obj\Debug\net5.0\Koleksiyonlar-Soru-3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\pDev\Collection Questions\Koleksiyonlar-Soru-3\obj\Debug\net5.0\Koleksiyonlar-Soru-3.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Collection Questions\Koleksiyonlar-Soru-3\obj\Debug\net5.0\Koleksiyonlar-Soru-3.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\pDev\Collection Questions\Koleksiyonlar-Soru-3\obj\Debug\net5.0\Koleksiyonlar-Soru-3.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Collection Questions\Koleksiyonlar-Soru-3\obj\Debug\net5.0\Koleksiyonlar-Soru-3.dll
+D:\Users\Tednokent\CSharp\pDev\Collection Questions\Koleksiyonlar-Soru-3\obj\Debug\net5.0\ref\Koleksiyonlar-Soru-3.dll
+D:\Users\Tednokent\CSharp\pDev\Collection Questions\Koleksiyonlar-Soru-3\obj\Debug\net5.0\Koleksiyonlar-Soru-3.pdb
+D:\Users\Tednokent\CSharp\pDev\Collection Questions\Koleksiyonlar-Soru-3\obj\Debug\net5.0\Koleksiyonlar-Soru-3.genruntimeconfig.cache
