@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\pDev\Classes-Constructor\bin\Debug\net5.0\Classes-Constructor.exe
+D:\Users\Tednokent\CSharp\pDev\Classes-Constructor\bin\Debug\net5.0\Classes-Constructor.deps.json
+D:\Users\Tednokent\CSharp\pDev\Classes-Constructor\bin\Debug\net5.0\Classes-Constructor.runtimeconfig.json
+D:\Users\Tednokent\CSharp\pDev\Classes-Constructor\bin\Debug\net5.0\Classes-Constructor.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\pDev\Classes-Constructor\bin\Debug\net5.0\Classes-Constructor.dll
+D:\Users\Tednokent\CSharp\pDev\Classes-Constructor\bin\Debug\net5.0\ref\Classes-Constructor.dll
+D:\Users\Tednokent\CSharp\pDev\Classes-Constructor\bin\Debug\net5.0\Classes-Constructor.pdb
+D:\Users\Tednokent\CSharp\pDev\Classes-Constructor\obj\Debug\net5.0\Classes-Constructor.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\pDev\Classes-Constructor\obj\Debug\net5.0\Classes-Constructor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\pDev\Classes-Constructor\obj\Debug\net5.0\Classes-Constructor.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Classes-Constructor\obj\Debug\net5.0\Classes-Constructor.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\pDev\Classes-Constructor\obj\Debug\net5.0\Classes-Constructor.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Classes-Constructor\obj\Debug\net5.0\Classes-Constructor.dll
+D:\Users\Tednokent\CSharp\pDev\Classes-Constructor\obj\Debug\net5.0\ref\Classes-Constructor.dll
+D:\Users\Tednokent\CSharp\pDev\Classes-Constructor\obj\Debug\net5.0\Classes-Constructor.pdb
+D:\Users\Tednokent\CSharp\pDev\Classes-Constructor\obj\Debug\net5.0\Classes-Constructor.genruntimeconfig.cache
