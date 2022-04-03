@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\pDev\Static-Class\bin\Debug\net5.0\Static-Class.exe
+D:\Users\Tednokent\CSharp\pDev\Static-Class\bin\Debug\net5.0\Static-Class.deps.json
+D:\Users\Tednokent\CSharp\pDev\Static-Class\bin\Debug\net5.0\Static-Class.runtimeconfig.json
+D:\Users\Tednokent\CSharp\pDev\Static-Class\bin\Debug\net5.0\Static-Class.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\pDev\Static-Class\bin\Debug\net5.0\Static-Class.dll
+D:\Users\Tednokent\CSharp\pDev\Static-Class\bin\Debug\net5.0\ref\Static-Class.dll
+D:\Users\Tednokent\CSharp\pDev\Static-Class\bin\Debug\net5.0\Static-Class.pdb
+D:\Users\Tednokent\CSharp\pDev\Static-Class\obj\Debug\net5.0\Static-Class.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\pDev\Static-Class\obj\Debug\net5.0\Static-Class.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\pDev\Static-Class\obj\Debug\net5.0\Static-Class.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Static-Class\obj\Debug\net5.0\Static-Class.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\pDev\Static-Class\obj\Debug\net5.0\Static-Class.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Static-Class\obj\Debug\net5.0\Static-Class.dll
+D:\Users\Tednokent\CSharp\pDev\Static-Class\obj\Debug\net5.0\ref\Static-Class.dll
+D:\Users\Tednokent\CSharp\pDev\Static-Class\obj\Debug\net5.0\Static-Class.pdb
+D:\Users\Tednokent\CSharp\pDev\Static-Class\obj\Debug\net5.0\Static-Class.genruntimeconfig.cache
