@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\pDev\Struct\bin\Debug\net5.0\Struct.exe
+D:\Users\Tednokent\CSharp\pDev\Struct\bin\Debug\net5.0\Struct.deps.json
+D:\Users\Tednokent\CSharp\pDev\Struct\bin\Debug\net5.0\Struct.runtimeconfig.json
+D:\Users\Tednokent\CSharp\pDev\Struct\bin\Debug\net5.0\Struct.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\pDev\Struct\bin\Debug\net5.0\Struct.dll
+D:\Users\Tednokent\CSharp\pDev\Struct\bin\Debug\net5.0\ref\Struct.dll
+D:\Users\Tednokent\CSharp\pDev\Struct\bin\Debug\net5.0\Struct.pdb
+D:\Users\Tednokent\CSharp\pDev\Struct\obj\Debug\net5.0\Struct.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\pDev\Struct\obj\Debug\net5.0\Struct.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\pDev\Struct\obj\Debug\net5.0\Struct.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Struct\obj\Debug\net5.0\Struct.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\pDev\Struct\obj\Debug\net5.0\Struct.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Struct\obj\Debug\net5.0\Struct.dll
+D:\Users\Tednokent\CSharp\pDev\Struct\obj\Debug\net5.0\ref\Struct.dll
+D:\Users\Tednokent\CSharp\pDev\Struct\obj\Debug\net5.0\Struct.pdb
+D:\Users\Tednokent\CSharp\pDev\Struct\obj\Debug\net5.0\Struct.genruntimeconfig.cache
