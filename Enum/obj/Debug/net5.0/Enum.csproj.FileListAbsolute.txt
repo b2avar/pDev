@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\pDev\Enum\bin\Debug\net5.0\Enum.exe
+D:\Users\Tednokent\CSharp\pDev\Enum\bin\Debug\net5.0\Enum.deps.json
+D:\Users\Tednokent\CSharp\pDev\Enum\bin\Debug\net5.0\Enum.runtimeconfig.json
+D:\Users\Tednokent\CSharp\pDev\Enum\bin\Debug\net5.0\Enum.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\pDev\Enum\bin\Debug\net5.0\Enum.dll
+D:\Users\Tednokent\CSharp\pDev\Enum\bin\Debug\net5.0\ref\Enum.dll
+D:\Users\Tednokent\CSharp\pDev\Enum\bin\Debug\net5.0\Enum.pdb
+D:\Users\Tednokent\CSharp\pDev\Enum\obj\Debug\net5.0\Enum.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\pDev\Enum\obj\Debug\net5.0\Enum.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\pDev\Enum\obj\Debug\net5.0\Enum.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Enum\obj\Debug\net5.0\Enum.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\pDev\Enum\obj\Debug\net5.0\Enum.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Enum\obj\Debug\net5.0\Enum.dll
+D:\Users\Tednokent\CSharp\pDev\Enum\obj\Debug\net5.0\ref\Enum.dll
+D:\Users\Tednokent\CSharp\pDev\Enum\obj\Debug\net5.0\Enum.pdb
+D:\Users\Tednokent\CSharp\pDev\Enum\obj\Debug\net5.0\Enum.genruntimeconfig.cache
