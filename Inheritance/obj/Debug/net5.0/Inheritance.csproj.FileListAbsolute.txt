@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\pDev\Inheritance\bin\Debug\net5.0\Inheritance.exe
+D:\Users\Tednokent\CSharp\pDev\Inheritance\bin\Debug\net5.0\Inheritance.deps.json
+D:\Users\Tednokent\CSharp\pDev\Inheritance\bin\Debug\net5.0\Inheritance.runtimeconfig.json
+D:\Users\Tednokent\CSharp\pDev\Inheritance\bin\Debug\net5.0\Inheritance.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\pDev\Inheritance\bin\Debug\net5.0\Inheritance.dll
+D:\Users\Tednokent\CSharp\pDev\Inheritance\bin\Debug\net5.0\ref\Inheritance.dll
+D:\Users\Tednokent\CSharp\pDev\Inheritance\bin\Debug\net5.0\Inheritance.pdb
+D:\Users\Tednokent\CSharp\pDev\Inheritance\obj\Debug\net5.0\Inheritance.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\pDev\Inheritance\obj\Debug\net5.0\Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\pDev\Inheritance\obj\Debug\net5.0\Inheritance.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Inheritance\obj\Debug\net5.0\Inheritance.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\pDev\Inheritance\obj\Debug\net5.0\Inheritance.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Inheritance\obj\Debug\net5.0\Inheritance.dll
+D:\Users\Tednokent\CSharp\pDev\Inheritance\obj\Debug\net5.0\ref\Inheritance.dll
+D:\Users\Tednokent\CSharp\pDev\Inheritance\obj\Debug\net5.0\Inheritance.pdb
+D:\Users\Tednokent\CSharp\pDev\Inheritance\obj\Debug\net5.0\Inheritance.genruntimeconfig.cache
