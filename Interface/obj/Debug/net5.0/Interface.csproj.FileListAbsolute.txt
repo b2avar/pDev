@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\pDev\Interface\bin\Debug\net5.0\Interface.exe
+D:\Users\Tednokent\CSharp\pDev\Interface\bin\Debug\net5.0\Interface.deps.json
+D:\Users\Tednokent\CSharp\pDev\Interface\bin\Debug\net5.0\Interface.runtimeconfig.json
+D:\Users\Tednokent\CSharp\pDev\Interface\bin\Debug\net5.0\Interface.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\pDev\Interface\bin\Debug\net5.0\Interface.dll
+D:\Users\Tednokent\CSharp\pDev\Interface\bin\Debug\net5.0\ref\Interface.dll
+D:\Users\Tednokent\CSharp\pDev\Interface\bin\Debug\net5.0\Interface.pdb
+D:\Users\Tednokent\CSharp\pDev\Interface\obj\Debug\net5.0\Interface.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\pDev\Interface\obj\Debug\net5.0\Interface.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\pDev\Interface\obj\Debug\net5.0\Interface.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Interface\obj\Debug\net5.0\Interface.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\pDev\Interface\obj\Debug\net5.0\Interface.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\pDev\Interface\obj\Debug\net5.0\Interface.dll
+D:\Users\Tednokent\CSharp\pDev\Interface\obj\Debug\net5.0\ref\Interface.dll
+D:\Users\Tednokent\CSharp\pDev\Interface\obj\Debug\net5.0\Interface.pdb
+D:\Users\Tednokent\CSharp\pDev\Interface\obj\Debug\net5.0\Interface.genruntimeconfig.cache
