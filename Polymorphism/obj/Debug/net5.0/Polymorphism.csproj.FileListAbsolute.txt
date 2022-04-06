@@ -1,0 +1,16 @@
+/Users/burakavar/Unity/pDev/Polymorphism/bin/Debug/net5.0/Polymorphism
+/Users/burakavar/Unity/pDev/Polymorphism/bin/Debug/net5.0/Polymorphism.deps.json
+/Users/burakavar/Unity/pDev/Polymorphism/bin/Debug/net5.0/Polymorphism.runtimeconfig.json
+/Users/burakavar/Unity/pDev/Polymorphism/bin/Debug/net5.0/Polymorphism.runtimeconfig.dev.json
+/Users/burakavar/Unity/pDev/Polymorphism/bin/Debug/net5.0/Polymorphism.dll
+/Users/burakavar/Unity/pDev/Polymorphism/bin/Debug/net5.0/ref/Polymorphism.dll
+/Users/burakavar/Unity/pDev/Polymorphism/bin/Debug/net5.0/Polymorphism.pdb
+/Users/burakavar/Unity/pDev/Polymorphism/obj/Debug/net5.0/Polymorphism.csproj.AssemblyReference.cache
+/Users/burakavar/Unity/pDev/Polymorphism/obj/Debug/net5.0/Polymorphism.GeneratedMSBuildEditorConfig.editorconfig
+/Users/burakavar/Unity/pDev/Polymorphism/obj/Debug/net5.0/Polymorphism.AssemblyInfoInputs.cache
+/Users/burakavar/Unity/pDev/Polymorphism/obj/Debug/net5.0/Polymorphism.AssemblyInfo.cs
+/Users/burakavar/Unity/pDev/Polymorphism/obj/Debug/net5.0/Polymorphism.csproj.CoreCompileInputs.cache
+/Users/burakavar/Unity/pDev/Polymorphism/obj/Debug/net5.0/Polymorphism.dll
+/Users/burakavar/Unity/pDev/Polymorphism/obj/Debug/net5.0/ref/Polymorphism.dll
+/Users/burakavar/Unity/pDev/Polymorphism/obj/Debug/net5.0/Polymorphism.pdb
+/Users/burakavar/Unity/pDev/Polymorphism/obj/Debug/net5.0/Polymorphism.genruntimeconfig.cache
