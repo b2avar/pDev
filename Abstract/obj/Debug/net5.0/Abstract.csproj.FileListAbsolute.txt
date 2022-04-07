@@ -1,0 +1,16 @@
+/Users/burakavar/Unity/pDev/Abstract/bin/Debug/net5.0/Abstract
+/Users/burakavar/Unity/pDev/Abstract/bin/Debug/net5.0/Abstract.deps.json
+/Users/burakavar/Unity/pDev/Abstract/bin/Debug/net5.0/Abstract.runtimeconfig.json
+/Users/burakavar/Unity/pDev/Abstract/bin/Debug/net5.0/Abstract.runtimeconfig.dev.json
+/Users/burakavar/Unity/pDev/Abstract/bin/Debug/net5.0/Abstract.dll
+/Users/burakavar/Unity/pDev/Abstract/bin/Debug/net5.0/ref/Abstract.dll
+/Users/burakavar/Unity/pDev/Abstract/bin/Debug/net5.0/Abstract.pdb
+/Users/burakavar/Unity/pDev/Abstract/obj/Debug/net5.0/Abstract.csproj.AssemblyReference.cache
+/Users/burakavar/Unity/pDev/Abstract/obj/Debug/net5.0/Abstract.GeneratedMSBuildEditorConfig.editorconfig
+/Users/burakavar/Unity/pDev/Abstract/obj/Debug/net5.0/Abstract.AssemblyInfoInputs.cache
+/Users/burakavar/Unity/pDev/Abstract/obj/Debug/net5.0/Abstract.AssemblyInfo.cs
+/Users/burakavar/Unity/pDev/Abstract/obj/Debug/net5.0/Abstract.csproj.CoreCompileInputs.cache
+/Users/burakavar/Unity/pDev/Abstract/obj/Debug/net5.0/Abstract.dll
+/Users/burakavar/Unity/pDev/Abstract/obj/Debug/net5.0/ref/Abstract.dll
+/Users/burakavar/Unity/pDev/Abstract/obj/Debug/net5.0/Abstract.pdb
+/Users/burakavar/Unity/pDev/Abstract/obj/Debug/net5.0/Abstract.genruntimeconfig.cache
