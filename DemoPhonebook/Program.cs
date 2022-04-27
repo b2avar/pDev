@@ -63,7 +63,7 @@ namespace DemoPhonebook
         {
             try
             {
-                Console.WriteLine("Lütfen yapmak istediğiniz işlemi seçiniz :) ");
+                Console.WriteLine("Lütfen yapmak istediğiniz işlemi seçiniz.");
                 Console.WriteLine("*******************************************");
 
                 Console.WriteLine("(1) Yeni Numara Kaydetmek");
