@@ -33,7 +33,7 @@ namespace DemoPhonebook
                         Controls.ListDirectory();
                         break;
                     case 5:
-                    Controls.Search();
+                        Controls.Search();
                         break;
                     default:
                         break;
