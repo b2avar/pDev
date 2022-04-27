@@ -13,7 +13,8 @@ namespace DemoPhonebook
             person.Name = Console.ReadLine();
             Console.Write("Lütfen soyad giriniz          :");
             person.Surname = Console.ReadLine();
-            person.PhoneNumber = GetPhoneNumber();
+            Console.Write("Lütfen telefon numarası giriniz          :");
+            person.PhoneNumber = Console.ReadLine();
             List.phonebookList.Add(new PhonebookList(person.Name, person.Surname, person.PhoneNumber));
         }
 
@@ -212,7 +213,7 @@ namespace DemoPhonebook
             else if (choise == "2"){
 
                 Console.WriteLine("Lütfen aramak istediğiniz kişiye ait telefon numarası giriniz :");
-                string phoneNumber = GetPhoneNumber();
+                string phoneNumber = Console.ReadLine();
                 foreach (var item in List.phonebookList)
                 {
                     if (phoneNumber == item.PhoneNumber)
@@ -229,29 +230,6 @@ namespace DemoPhonebook
         }
 
         // Diğer Metotlar
-
-        // Telefon numarası kontrol metodu
-        public static string GetPhoneNumber()
-        {
-
-            try
-            {
-                Console.Write("Lütfen telefon numarası giriniz :");
-                string phoneNumber = Console.ReadLine();
-                if (phoneNumber.Length != 10)
-                {
-                    Console.WriteLine("Lütfen 10 haneli telefon numarası girin.");
-                    return GetPhoneNumber();
-                }
-                return phoneNumber;
-            }
-            catch
-            {
-                Console.WriteLine("Lütfen 10 haneli telefon numarası girin.");
-                return GetPhoneNumber();
-            }
-
-        }
 
         // Ad veya Soyad kontrol metodu
         public static string GetName()
@@ -306,7 +284,6 @@ namespace DemoPhonebook
                 return GetName();
             }
         }
-
 
         // Ad ve Soyad kontrol metodu
         public static string CheckNameSurname(string name, string surname)

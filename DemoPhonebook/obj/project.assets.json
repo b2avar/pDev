@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Tednokent\\CSharp\\DemoPhonebook\\DemoPhonebook.csproj",
+      "projectUniqueName": "D:\\Users\\Tednokent\\CSharp\\pDev\\DemoPhonebook\\DemoPhonebook.csproj",
       "projectName": "DemoPhonebook",
-      "projectPath": "D:\\Users\\Tednokent\\CSharp\\DemoPhonebook\\DemoPhonebook.csproj",
+      "projectPath": "D:\\Users\\Tednokent\\CSharp\\pDev\\DemoPhonebook\\DemoPhonebook.csproj",
       "packagesPath": "C:\\Users\\Tednokent\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Tednokent\\CSharp\\DemoPhonebook\\obj\\",
+      "outputPath": "D:\\Users\\Tednokent\\CSharp\\pDev\\DemoPhonebook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tednokent\\AppData\\Roaming\\NuGet\\NuGet.Config",
