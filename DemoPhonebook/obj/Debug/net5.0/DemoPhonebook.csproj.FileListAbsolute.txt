@@ -1,0 +1,16 @@
+D:\Users\Tednokent\CSharp\DemoPhonebook\bin\Debug\net5.0\DemoPhonebook.exe
+D:\Users\Tednokent\CSharp\DemoPhonebook\bin\Debug\net5.0\DemoPhonebook.deps.json
+D:\Users\Tednokent\CSharp\DemoPhonebook\bin\Debug\net5.0\DemoPhonebook.runtimeconfig.json
+D:\Users\Tednokent\CSharp\DemoPhonebook\bin\Debug\net5.0\DemoPhonebook.runtimeconfig.dev.json
+D:\Users\Tednokent\CSharp\DemoPhonebook\bin\Debug\net5.0\DemoPhonebook.dll
+D:\Users\Tednokent\CSharp\DemoPhonebook\bin\Debug\net5.0\DemoPhonebook.pdb
+D:\Users\Tednokent\CSharp\DemoPhonebook\obj\Debug\net5.0\DemoPhonebook.csproj.AssemblyReference.cache
+D:\Users\Tednokent\CSharp\DemoPhonebook\obj\Debug\net5.0\DemoPhonebook.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\CSharp\DemoPhonebook\obj\Debug\net5.0\DemoPhonebook.AssemblyInfoInputs.cache
+D:\Users\Tednokent\CSharp\DemoPhonebook\obj\Debug\net5.0\DemoPhonebook.AssemblyInfo.cs
+D:\Users\Tednokent\CSharp\DemoPhonebook\obj\Debug\net5.0\DemoPhonebook.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\CSharp\DemoPhonebook\obj\Debug\net5.0\DemoPhonebook.dll
+D:\Users\Tednokent\CSharp\DemoPhonebook\obj\Debug\net5.0\ref\DemoPhonebook.dll
+D:\Users\Tednokent\CSharp\DemoPhonebook\obj\Debug\net5.0\DemoPhonebook.pdb
+D:\Users\Tednokent\CSharp\DemoPhonebook\obj\Debug\net5.0\DemoPhonebook.genruntimeconfig.cache
+D:\Users\Tednokent\CSharp\DemoPhonebook\obj\Debug\net5.0\refint\DemoPhonebook.dll
