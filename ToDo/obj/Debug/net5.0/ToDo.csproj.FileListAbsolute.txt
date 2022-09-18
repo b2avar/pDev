@@ -1,0 +1,16 @@
+D:\Users\Tednokent\Desktop\Burak\cSharp\ToDo\obj\Debug\net5.0\ToDo.csproj.AssemblyReference.cache
+D:\Users\Tednokent\Desktop\Burak\cSharp\ToDo\obj\Debug\net5.0\ToDo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tednokent\Desktop\Burak\cSharp\ToDo\obj\Debug\net5.0\ToDo.AssemblyInfoInputs.cache
+D:\Users\Tednokent\Desktop\Burak\cSharp\ToDo\obj\Debug\net5.0\ToDo.AssemblyInfo.cs
+D:\Users\Tednokent\Desktop\Burak\cSharp\ToDo\obj\Debug\net5.0\ToDo.csproj.CoreCompileInputs.cache
+D:\Users\Tednokent\Desktop\Burak\cSharp\ToDo\bin\Debug\net5.0\ToDo.exe
+D:\Users\Tednokent\Desktop\Burak\cSharp\ToDo\bin\Debug\net5.0\ToDo.deps.json
+D:\Users\Tednokent\Desktop\Burak\cSharp\ToDo\bin\Debug\net5.0\ToDo.runtimeconfig.json
+D:\Users\Tednokent\Desktop\Burak\cSharp\ToDo\bin\Debug\net5.0\ToDo.runtimeconfig.dev.json
+D:\Users\Tednokent\Desktop\Burak\cSharp\ToDo\bin\Debug\net5.0\ToDo.dll
+D:\Users\Tednokent\Desktop\Burak\cSharp\ToDo\bin\Debug\net5.0\ToDo.pdb
+D:\Users\Tednokent\Desktop\Burak\cSharp\ToDo\obj\Debug\net5.0\ToDo.dll
+D:\Users\Tednokent\Desktop\Burak\cSharp\ToDo\obj\Debug\net5.0\refint\ToDo.dll
+D:\Users\Tednokent\Desktop\Burak\cSharp\ToDo\obj\Debug\net5.0\ToDo.pdb
+D:\Users\Tednokent\Desktop\Burak\cSharp\ToDo\obj\Debug\net5.0\ToDo.genruntimeconfig.cache
+D:\Users\Tednokent\Desktop\Burak\cSharp\ToDo\obj\Debug\net5.0\ref\ToDo.dll
