@@ -16,13 +16,13 @@ Yeni bir console uygulaması açarak bir 3 kolondan oluşan bir TODO uygulaması
 
 
 
-Baslık
-Icerik
-Atanan Kisi (Takım üyelerişnden biri olmalı)
-Büyüklük (XS, S, M, L, XL)
+- Baslık
+- Icerik
+- Atanan Kisi (Takım üyelerişnden biri olmalı)
+- Büyüklük (XS, S, M, L, XL)
 
 
-Açıklama:
+## Açıklama:
 
 
 
