@@ -95,5 +95,51 @@ Yeni bir console uygulaması açarak bir 3 kolondan oluşan bir TODO uygulaması
 Öncelikle silmek istediğiniz kartı seçmeniz gerekiyor.
 Lütfen kart başlığını yazınız:
 ```
+- Kart bulunamaz ise:
+
+```
+Aradığınız krtiterlere uygun kart board'da bulunamadı. Lütfen bir seçim yapınız.
+* Silmeyi sonlandırmak için : (1)
+* Yeniden denemek için : (2)
+```
+- Aynı isimde birden fazla kart bulunursa her ikisi de silinebilir.
+
+### (4) Kart Taşımak
+
+```
+Öncelikle silmek istediğiniz kartı seçmeniz gerekiyor.
+Lütfen kart başlığını yazınız:
+```
+- Kart bulunamaz ise:
+
+```
+Aradığınız krtiterlere uygun kart board'da bulunamadı. Lütfen bir seçim yapınız.
+* İşlemi sonlandırmak için : (1)
+* Yeniden denemek için : (2)
+```
+- Kart bulunur ise:
+
+```
+ Bulunan Kart Bilgileri:
+ **************************************
+ Başlık      :
+ İçerik      :
+ Atanan Kişi :
+ Büyüklük    :
+ Line        :
+
+ Lütfen taşımak istediğiniz Line'ı seçiniz: 
+ (1) TODO
+ (2) IN PROGRESS
+ (3) DONE
+ ```
+ 
+ - Doğru bir seçim yapılırsa board listelenerek (1) Board Listelemek kullanılarak kullanıcıya gösterilir. Seçim doğru değil ise "Hatalı bir seçim yaptınız!" bilgisi ile işlem sonlandırılabilir.
+- NOT: Uygulamanın yapısı genel olarak aşağıdaki gibi olmalıdır:
+- Board 3 tane Line dan oluşur.
+- Her bir line bir kart listesi tutar.
+- Kartların büyüklükleri pre-defined olan bir enum'da tutulur.
+- Kart sadece takım üyelerinden birine atanabilir.
+- Takım üyeleri daha önceden varsayıla olarak tanımlanmış bir listede olmalı. Struct, class ya da bir koleksiyon kullanılabilir.
 
 
