@@ -5,14 +5,14 @@ Yeni bir console uygulaması açarak bir 3 kolondan oluşan bir TODO uygulaması
 
 
 
-Kart Ekle
-Kart Güncelle
-Kart Sil
-Kart Taşı
-Board Listeleme
+- Kart Ekle
+- Kart Güncelle
+- Kart Sil
+- Kart Taşı
+- Board Listeleme
 
 
-Kart İçeriği:
+## Kart İçeriği:
 
 
 
