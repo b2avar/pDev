@@ -37,11 +37,11 @@ Kartlar ancak takımdan birine atanabilir. Takımdaki kişiler ise varsayılan o
 
 Uygulama ilk başladığında kullanıcıya yapmak istediği işlem seçtirilir.
 
-'''
+```
   Lütfen yapmak istediğiniz işlemi seçiniz :) 
   *******************************************
   (1) Board Listelemek
   (2) Board'a Kart Eklemek
   (3) Board'dan Kart Silmek
   (4) Kart Taşımak
-'''
+```
