@@ -107,7 +107,7 @@ Aradığınız krtiterlere uygun kart board'da bulunamadı. Lütfen bir seçim y
 ### (4) Kart Taşımak
 
 ```
-Öncelikle silmek istediğiniz kartı seçmeniz gerekiyor.
+Öncelikle taşımak istediğiniz kartı seçmeniz gerekiyor.
 Lütfen kart başlığını yazınız:
 ```
 - Kart bulunamaz ise:
@@ -133,6 +133,35 @@ Aradığınız krtiterlere uygun kart board'da bulunamadı. Lütfen bir seçim y
  (2) IN PROGRESS
  (3) DONE
  ```
+ 
+### (5) Kart Güncelle
+ 
+```
+Öncelikle taşımak istediğiniz kartı seçmeniz gerekiyor.
+Lütfen kart başlığını yazınız:
+```
+- Kart bulunamaz ise:
+
+```
+Aradığınız krtiterlere uygun kart board'da bulunamadı. Lütfen bir seçim yapınız.
+* İşlemi sonlandırmak için : (1)
+* Yeniden denemek için : (2)
+```
+- Kart bulunur ise:
+```
+Başlık      :
+İçerik      :
+Atanan Kişi :
+Büyüklük    :
+```
+
+### (6) Çıkış
+```
+Çıkış yapılıyor
+```
+
+
+ 
  
  - Doğru bir seçim yapılırsa board listelenerek (1) Board Listelemek kullanılarak kullanıcıya gösterilir. Seçim doğru değil ise "Hatalı bir seçim yaptınız!" bilgisi ile işlem sonlandırılabilir.
 - NOT: Uygulamanın yapısı genel olarak aşağıdaki gibi olmalıdır:
