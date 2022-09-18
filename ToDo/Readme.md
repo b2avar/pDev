@@ -45,3 +45,36 @@ Yeni bir console uygulaması açarak bir 3 kolondan oluşan bir TODO uygulaması
   (3) Board'dan Kart Silmek
   (4) Kart Taşımak
 ```
+# (1) Board Listelemek
+
+```
+ TODO Line
+ ************************
+ Başlık      :
+ İçerik      :
+ Atanan Kişi :
+ Büyüklük    :
+ -
+ Başlık      :
+ İçerik      :
+ Atanan Kişi :
+ Büyüklük    :
+ 
+ 
+ IN PROGRESS Line
+ ************************
+ Başlık      :
+ İçerik      :
+ Atanan Kişi :
+ Büyüklük    :
+ -
+ Başlık      :
+ İçerik      :
+ Atanan Kişi :
+ Büyüklük    :
+
+
+ DONE Line
+ ************************
+ ~ BOŞ ~
+ ```
