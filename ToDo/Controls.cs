@@ -324,7 +324,7 @@ namespace ToDo
             {
                 try
                 {
-                    Console.WriteLine("Öncelikle taşımak istediğiniz kartı seçmeniz gerekiyor.");
+                    Console.WriteLine("Öncelikle güncellemek istediğiniz kartı seçmeniz gerekiyor.");
                     Console.Write("Lütfen kart başlığını yazınız : ");
                     string baslik = Console.ReadLine();
                     var myKeyToDo = List.toDoLine.FirstOrDefault(CardList => CardList.Value.Baslik == baslik).Key;
