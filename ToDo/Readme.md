@@ -78,3 +78,22 @@ Yeni bir console uygulaması açarak bir 3 kolondan oluşan bir TODO uygulaması
  ************************
  ~ BOŞ ~
  ```
+### (2) Board'a Kart Eklemek
+
+```
+ Başlık Giriniz                                  : 
+ İçerik Giriniz                                  :
+ Büyüklük Seçiniz -> XS(1),S(2),M(3),L(4),XL(5)  :
+ Kişi Seçiniz                                    : 
+```
+- Büyüklükler Enum olarak saklanmalı. Kart üzerinde gösterilirken XS olarak gösterilmeli. Giriş yapılırken kullanıcıdan 1 alınmalıdır.
+- Takım üyeleri mevcut bir listede daha tanımlanmış olamlıdır.(Program içerisinde dinamik tanımlanmasına gerek yok.) Kart tanımlarken takım üyesinin ID'si istenmeli. Tanımlı bir ID değilse "Hatalı girişler yaptınız!" uyarısı ile işlem iptal edilebilir.
+
+### (3) Board'a Kart Silmek
+
+```
+Öncelikle silmek istediğiniz kartı seçmeniz gerekiyor.
+Lütfen kart başlığını yazınız:
+```
+
+
