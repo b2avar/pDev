@@ -45,6 +45,8 @@ Yeni bir console uygulaması açarak bir 3 kolondan oluşan bir TODO uygulaması
   (2) Board'a Kart Eklemek
   (3) Board'dan Kart Silmek
   (4) Kart Taşımak
+  (5) Kart Güncelle
+  (6) Çıkış
 ```
 ### (1) Board Listelemek
 
