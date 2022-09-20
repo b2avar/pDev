@@ -118,22 +118,14 @@ namespace ToDo
                     {
                         if (List.toDoLine.Keys.Contains(myKeyToDo))
                         {
-                            _baslik = List.toDoLine[myKeyToDo].Baslik;
-                            _icerik = List.toDoLine[myKeyToDo].Icerik;
-                            _atananKisi = List.toDoLine[myKeyToDo].AtananKisi;
-                            _buyukluk = List.toDoLine[myKeyToDo].Buyukluk;
-
+                            NewCardInformation(List.toDoLine,myKeyToDo);
                             ConsoleUI.CardInfoFoundUI(myKeyToDo, List.toDoLine);
                             Console.WriteLine("Line        : TODO");
                             select = false;
                         }
                         else if (List.inProgressLine.Keys.Contains(myKeyinProg))
                         {
-                            _baslik = List.inProgressLine[myKeyinProg].Baslik;
-                            _icerik = List.inProgressLine[myKeyinProg].Icerik;
-                            _atananKisi = List.inProgressLine[myKeyinProg].AtananKisi;
-                            _buyukluk = List.inProgressLine[myKeyinProg].Buyukluk;
-
+                            NewCardInformation(List.inProgressLine,myKeyinProg);
                             ConsoleUI.CardInfoFoundUI(myKeyinProg, List.inProgressLine);
                             Console.WriteLine("Line        : IN PROGRESS");
                             select = false;
@@ -141,11 +133,7 @@ namespace ToDo
 
                         else if (List.doneLine.Keys.Contains(myKeyDone))
                         {
-                            _baslik = List.doneLine[myKeyDone].Baslik;
-                            _icerik = List.doneLine[myKeyDone].Icerik;
-                            _atananKisi = List.doneLine[myKeyDone].AtananKisi;
-                            _buyukluk = List.doneLine[myKeyDone].Buyukluk;
-
+                            NewCardInformation(List.doneLine,myKeyDone);
                             ConsoleUI.CardInfoFoundUI(myKeyDone, List.doneLine);
                             Console.WriteLine("Line        : DONE");
                             select = false;
@@ -350,10 +338,19 @@ namespace ToDo
                 }
                 catch (System.Exception)
                 {
-                   ConsoleUI.TwoFactorSelectionUI();
+                    ConsoleUI.TwoFactorSelectionUI();
                 }
 
             }
+        }
+
+
+        public static void NewCardInformation(Dictionary<int, CardList> list, int keyValue)
+        {
+            _baslik = list[keyValue].Baslik;
+            _icerik = list[keyValue].Icerik;
+            _atananKisi = list[keyValue].AtananKisi;
+            _buyukluk = list[keyValue].Buyukluk;
         }
         public static void ToDoLine(int id)
         {
