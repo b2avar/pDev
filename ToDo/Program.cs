@@ -47,8 +47,8 @@ namespace ToDo
         }
         static bool AnotherAction()
         {
-            bool control3 = true;
-            while (control3)
+            bool control = true;
+            while (control)
             {
                 try
                 {
@@ -58,27 +58,24 @@ namespace ToDo
                     if (answer == 'y')
                     {
                         Console.WriteLine("İşlem Tamamladı.");
-                        control3 = false;
+                        control = false;
                         return true;
                     }
                     else if (answer == 'n')
                     {
                         Console.WriteLine("İşlem Tamamladı.");
-                        control3 = false;
+                        control = false;
                         return false;
                     }
                 }
                 catch (System.Exception)
                 {
-                    Console.WriteLine("Seçim bulunamadı!");
-                    Console.WriteLine("Lütfen yapmak istediğiniz işleme göre ekranda bulunan numaralardan birini giriniz!");
-                    Console.WriteLine();
+                    ConsoleUI.NoSelectionFoundUI();
+
                 }
             }
 
-            Console.WriteLine("Seçim bulunamadı!");
-            Console.WriteLine("Lütfen yapmak istediğiniz işleme göre ekranda bulunan numaralardan birini giriniz!");
-            Console.WriteLine();
+            ConsoleUI.NoSelectionFoundUI();
             return true;
         }
         static int GetChoose()
@@ -106,17 +103,13 @@ namespace ToDo
                 }
                 else
                 {
-                    Console.WriteLine("Seçim bulunamadı!");
-                    Console.WriteLine("Lütfen yapmak istediğiniz işleme göre ekranda bulunan numaralardan birini giriniz!");
-                    Console.WriteLine();
+                    ConsoleUI.NoSelectionFoundUI();
                     return GetChoose();
                 }
             }
             catch (System.Exception)
             {
-                Console.WriteLine("Seçim bulunamadı!");
-                Console.WriteLine("Lütfen yapmak istediğiniz işleme göre ekranda bulunan numaralardan birini giriniz!");
-                Console.WriteLine();
+                ConsoleUI.NoSelectionFoundUI();
                 return GetChoose();
             }
         }

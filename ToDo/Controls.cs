@@ -74,9 +74,7 @@ namespace ToDo
                         bool control2 = true;
                         while (control2)
                         {
-                            Console.WriteLine("Aradığınız krtiterlere uygun kart board'da bulunamadı. Lütfen bir seçim yapınız.");
-                            Console.WriteLine("* Silmeyi sonlandırmak için : (1) ");
-                            Console.WriteLine("* Yeniden denemek için      : (2) ");
+                            ConsoleUI.TwoFactorSelection();
                             int number = int.Parse(Console.ReadLine());
                             if (number == 1)
                             {
@@ -93,9 +91,7 @@ namespace ToDo
 
                             else if (number > 2)
                             {
-                                Console.WriteLine("Seçim bulunamadı!");
-                                Console.WriteLine("Lütfen yapmak istediğiniz işleme göre ekranda bulunan numaralardan birini giriniz!");
-                                Console.WriteLine();
+                                ConsoleUI.NoSelectionFoundUI();
                             }
                         }
                     }
@@ -263,9 +259,7 @@ namespace ToDo
 
                         else
                         {
-                            Console.WriteLine("Seçim bulunamadı!");
-                            Console.WriteLine("Lütfen yapmak istediğiniz işleme göre ekranda bulunan numaralardan birini giriniz!");
-                            Console.WriteLine();
+                            ConsoleUI.NoSelectionFoundUI();
                         }
 
                         Console.WriteLine("İşlem başarılı.");
@@ -279,9 +273,7 @@ namespace ToDo
                         {
                             try
                             {
-                                Console.WriteLine(" Aradığınız krtiterlere uygun kart board'da bulunamadı. Lütfen bir seçim yapınız.");
-                                Console.WriteLine("* İşlemi sonlandırmak için : (1)");
-                                Console.WriteLine("* Yeniden denemek için     : (2)");
+                                ConsoleUI.TwoFactorSelection();
                                 string s = Console.ReadLine();
 
                                 if (s == "1")
@@ -298,8 +290,7 @@ namespace ToDo
                             }
                             catch (System.Exception)
                             {
-                                Console.WriteLine("Seçim bulunamadı!");
-                                Console.WriteLine("Lütfen yapmak istediğiniz işleme göre ekranda bulunan numaralardan birini giriniz!");
+                                ConsoleUI.NoSelectionFoundUI();
                                 Console.WriteLine();
                             }
                         }
@@ -307,9 +298,7 @@ namespace ToDo
                 }
                 catch (System.Exception)
                 {
-                    Console.WriteLine(" Aradığınız krtiterlere uygun kart board'da bulunamadı. Lütfen bir seçim yapınız.");
-                    Console.WriteLine("* İşlemi sonlandırmak için : (1)");
-                    Console.WriteLine("* Yeniden denemek için     : (2)");
+                    ConsoleUI.TwoFactorSelection();
                 }
             }
         }
@@ -376,9 +365,7 @@ namespace ToDo
                 }
                 catch (System.Exception)
                 {
-                    Console.WriteLine(" Aradığınız krtiterlere uygun kart board'da bulunamadı. Lütfen bir seçim yapınız.");
-                    Console.WriteLine("* İşlemi sonlandırmak için : (1)");
-                    Console.WriteLine("* Yeniden denemek için     : (2)");
+                   ConsoleUI.TwoFactorSelection();
                 }
 
             }
@@ -387,27 +374,21 @@ namespace ToDo
         public static void ToDoLine(int id)
         {
 
-            Console.WriteLine("TODO Line");
-            Console.WriteLine("************************");
-            Console.WriteLine();
+            ConsoleUI.ListBoardUI("TODO Line");
             ListSystem(id, List.toDoLine);
             ThreeSpace();
         }
 
         public static void InProgressLine(int id)
         {
-            Console.WriteLine("IN PROGRESS Line");
-            Console.WriteLine("************************");
-            Console.WriteLine();
+            ConsoleUI.ListBoardUI("IN PROGRESS Line");
             ListSystem(id, List.inProgressLine);
             ThreeSpace();
         }
 
         public static void DoneLine(int id)
         {
-            Console.WriteLine("DONE Line");
-            Console.WriteLine("************************");
-            Console.WriteLine();
+            ConsoleUI.ListBoardUI("DONE Line");
             ListSystem(id, List.doneLine);
             ThreeSpace();
         }
@@ -460,16 +441,14 @@ namespace ToDo
                     case 5:
                         return Buyukluk.XL.ToString();
                     default:
-                        Console.WriteLine("Seçim bulunamadı!");
-                        Console.WriteLine("Lütfen yapmak istediğiniz işleme göre ekranda bulunan numaralardan birini giriniz!");
+                        ConsoleUI.NoSelectionFoundUI();
                         Console.WriteLine();
                         return GetBuyukluk();
                 }
             }
             catch (System.Exception)
             {
-                Console.WriteLine("Seçim bulunamadı!");
-                Console.WriteLine("Lütfen yapmak istediğiniz işleme göre ekranda bulunan numaralardan birini giriniz!");
+                ConsoleUI.NoSelectionFoundUI();
                 Console.WriteLine();
                 return GetBuyukluk();
             }
