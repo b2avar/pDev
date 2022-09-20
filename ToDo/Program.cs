@@ -9,7 +9,7 @@ namespace ToDo
         {
             bool conTinue = true;
 
-            while (conTinue)
+            do
             {
                 switch (GetChoose())
                 {
@@ -42,7 +42,8 @@ namespace ToDo
                 }
 
                 conTinue = AnotherAction();
-            }
+
+            } while (conTinue);
         }
         static bool AnotherAction()
         {
