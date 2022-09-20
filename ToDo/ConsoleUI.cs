@@ -25,7 +25,7 @@ namespace ToDo
         {
             Console.WriteLine();
             Console.WriteLine("Seçim bulunamadı!");
-            Console.WriteLine("Lütfen yapmak istediğiniz işleme göre ekranda bulunan numaralardan birini giriniz!");
+            Console.WriteLine("Lütfen yapmak istediğiniz işleme göre ekranda bulunan karakter ya da numaralardan birini giriniz!");
             Console.WriteLine();
         }
 

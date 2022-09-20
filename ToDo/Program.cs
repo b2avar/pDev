@@ -48,7 +48,7 @@ namespace ToDo
         static bool AnotherAction()
         {
             bool control = true;
-            while (control)
+            do
             {
                 try
                 {
@@ -73,7 +73,7 @@ namespace ToDo
                     ConsoleUI.NoSelectionFoundUI();
 
                 }
-            }
+            } while (control);
 
             ConsoleUI.NoSelectionFoundUI();
             return true;
