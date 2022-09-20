@@ -74,7 +74,7 @@ namespace ToDo
                         bool control2 = true;
                         while (control2)
                         {
-                            ConsoleUI.TwoFactorSelection();
+                            ConsoleUI.TwoFactorSelectionUI();
                             int number = int.Parse(Console.ReadLine());
                             if (number == 1)
                             {
@@ -123,12 +123,7 @@ namespace ToDo
                             _atananKisi = List.toDoLine[myKeyToDo].AtananKisi;
                             _buyukluk = List.toDoLine[myKeyToDo].Buyukluk;
 
-                            Console.WriteLine("Bulunan Kart Bilgileri:");
-                            Console.WriteLine("**************************************");
-                            Console.WriteLine("Başlık      : {0}", List.toDoLine[myKeyToDo].Baslik);
-                            Console.WriteLine("İçerik      : {0}", List.toDoLine[myKeyToDo].Icerik);
-                            Console.WriteLine("Atanan Kişi : {0}", List.toDoLine[myKeyToDo].AtananKisi);
-                            Console.WriteLine("Büyüklük    : {0}", List.toDoLine[myKeyToDo].Buyukluk);
+                            ConsoleUI.CardInfoFoundUI(myKeyToDo, List.toDoLine);
                             Console.WriteLine("Line        : TODO");
                             select = false;
                         }
@@ -139,12 +134,7 @@ namespace ToDo
                             _atananKisi = List.inProgressLine[myKeyinProg].AtananKisi;
                             _buyukluk = List.inProgressLine[myKeyinProg].Buyukluk;
 
-                            Console.WriteLine("Bulunan Kart Bilgileri:");
-                            Console.WriteLine("**************************************");
-                            Console.WriteLine("Başlık      : {0}", List.inProgressLine[myKeyinProg].Baslik);
-                            Console.WriteLine("İçerik      : {0}", List.inProgressLine[myKeyinProg].Icerik);
-                            Console.WriteLine("Atanan Kişi : {0}", List.inProgressLine[myKeyinProg].AtananKisi);
-                            Console.WriteLine("Büyüklük    : {0}", List.inProgressLine[myKeyinProg].Buyukluk);
+                            ConsoleUI.CardInfoFoundUI(myKeyinProg, List.inProgressLine);
                             Console.WriteLine("Line        : IN PROGRESS");
                             select = false;
                         }
@@ -156,12 +146,7 @@ namespace ToDo
                             _atananKisi = List.doneLine[myKeyDone].AtananKisi;
                             _buyukluk = List.doneLine[myKeyDone].Buyukluk;
 
-                            Console.WriteLine("Bulunan Kart Bilgileri:");
-                            Console.WriteLine("**************************************");
-                            Console.WriteLine("Başlık      : {0}", List.doneLine[myKeyDone].Baslik);
-                            Console.WriteLine("İçerik      : {0}", List.doneLine[myKeyDone].Icerik);
-                            Console.WriteLine("Atanan Kişi : {0}", List.doneLine[myKeyDone].AtananKisi);
-                            Console.WriteLine("Büyüklük    : {0}", List.doneLine[myKeyDone].Buyukluk);
+                            ConsoleUI.CardInfoFoundUI(myKeyDone, List.doneLine);
                             Console.WriteLine("Line        : DONE");
                             select = false;
                         }
@@ -273,7 +258,7 @@ namespace ToDo
                         {
                             try
                             {
-                                ConsoleUI.TwoFactorSelection();
+                                ConsoleUI.TwoFactorSelectionUI();
                                 string s = Console.ReadLine();
 
                                 if (s == "1")
@@ -298,7 +283,7 @@ namespace ToDo
                 }
                 catch (System.Exception)
                 {
-                    ConsoleUI.TwoFactorSelection();
+                    ConsoleUI.TwoFactorSelectionUI();
                 }
             }
         }
@@ -365,7 +350,7 @@ namespace ToDo
                 }
                 catch (System.Exception)
                 {
-                   ConsoleUI.TwoFactorSelection();
+                   ConsoleUI.TwoFactorSelectionUI();
                 }
 
             }
