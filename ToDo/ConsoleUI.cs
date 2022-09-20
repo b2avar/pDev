@@ -6,6 +6,21 @@ namespace ToDo
     public static class ConsoleUI
     {
 
+        public static void MainMenu()
+        {
+
+            Console.WriteLine("ToDo List Menü");
+            Console.WriteLine("*******************************************");
+
+            Console.WriteLine("(1) Board Listelemek");
+            Console.WriteLine("(2) Board'a Kart Eklemek");
+            Console.WriteLine("(3) Board'dan Kart Silmek");
+            Console.WriteLine("(4) Kart Taşımak");
+            Console.WriteLine("(5) Kart Güncelle");
+            Console.WriteLine("(6) Çıkış");
+            Console.Write("Lütfen yapmak istediğiniz işlem numarasını giriniz : ");
+        }
+
         public static void NoSelectionFoundUI()
         {
             Console.WriteLine();
@@ -28,7 +43,7 @@ namespace ToDo
             Console.WriteLine("* Yeniden denemek için     : (2)");
         }
 
-        public static void CardInfoFoundUI(int key, Dictionary<int,CardList> list)
+        public static void CardInfoFoundUI(int key, Dictionary<int, CardList> list)
         {
             Console.WriteLine("Bulunan Kart Bilgileri:");
             Console.WriteLine("**************************************");
@@ -36,6 +51,13 @@ namespace ToDo
             Console.WriteLine("İçerik      : {0}", list[key].Icerik);
             Console.WriteLine("Atanan Kişi : {0}", list[key].AtananKisi);
             Console.WriteLine("Büyüklük    : {0}", list[key].Buyukluk);
+        }
+
+        public static void ThreeSpace()
+        {
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
         }
     }
 }

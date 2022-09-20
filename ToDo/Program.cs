@@ -82,20 +82,8 @@ namespace ToDo
         {
             try
             {
-                Console.WriteLine("ToDo List Menü");
-                Console.WriteLine("*******************************************");
-
-                Console.WriteLine("(1) Board Listelemek");
-                Console.WriteLine("(2) Board'a Kart Eklemek");
-                Console.WriteLine("(3) Board'dan Kart Silmek");
-                Console.WriteLine("(4) Kart Taşımak");
-                Console.WriteLine("(5) Kart Güncelle");
-                Console.WriteLine("(6) Çıkış");
-                Console.Write("Lütfen yapmak istediğiniz işlem numarasını giriniz : ");
-
+                ConsoleUI.MainMenu();
                 sbyte chooseOption = Convert.ToSByte(Console.ReadLine());
-
-
 
                 if (chooseOption > 0 && chooseOption < 7)
                 {

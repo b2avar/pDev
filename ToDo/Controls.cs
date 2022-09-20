@@ -355,27 +355,26 @@ namespace ToDo
 
             }
         }
-
         public static void ToDoLine(int id)
         {
-
             ConsoleUI.ListBoardUI("TODO Line");
             ListSystem(id, List.toDoLine);
-            ThreeSpace();
+            ConsoleUI.ThreeSpace();
         }
 
         public static void InProgressLine(int id)
         {
             ConsoleUI.ListBoardUI("IN PROGRESS Line");
             ListSystem(id, List.inProgressLine);
-            ThreeSpace();
+            ConsoleUI.ThreeSpace();
+
         }
 
         public static void DoneLine(int id)
         {
             ConsoleUI.ListBoardUI("DONE Line");
             ListSystem(id, List.doneLine);
-            ThreeSpace();
+            ConsoleUI.ThreeSpace();
         }
 
         public static void ListSystem(int id, Dictionary<int, CardList> list)
@@ -398,12 +397,6 @@ namespace ToDo
             }
         }
 
-        public static void ThreeSpace()
-        {
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-        }
         public enum Buyukluk { XS, S, M, L, XL }
 
         public static string GetBuyukluk()
