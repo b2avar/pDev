@@ -1,14 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
 namespace ToDo
 {
     public static class Controls
     {
-        static string _baslik, _icerik, _atananKisi, _buyukluk;
+        static string? _title;
+        static string? _content;
+        static string? _person;
+        static string? _size;
 
-        //(1) Board Listelemek
+        //(1) List board
         public static void ListBoard(int id)
         {
             ToDoLine(id);
@@ -16,48 +15,47 @@ namespace ToDo
             DoneLine(id);
         }
 
-        //(2) Board'a Kart Eklemek
+        //(2) Add card to board
         public static void AddCard(int id)
         {
-            Console.Write("Başlık Giriniz                                 : ");
-            string baslik = Console.ReadLine();
-            Console.Write("İçerik Giriniz                                 : ");
-            string icerik = Console.ReadLine();
-            Console.Write("Kişi Giriniz                                   : ");
-            string kisi = Console.ReadLine();
-            string buyukluk = GetBuyukluk();
-            List.toDoLine.Add(id, new CardList(baslik, icerik, kisi, buyukluk));
+            Console.Write("Enter Title                                 : ");
+            string? title = Console.ReadLine();
+            Console.Write("Enter Content                               : ");
+            string? content = Console.ReadLine();
+            Console.Write("Enter Person                                : ");
+            string? person = Console.ReadLine();
+            string? size = GetSize();
+            List.ToDoLine.Add(id, new CardList(title, content, person, size));
         }
 
-        //(3) Board'dan Kart Silmek
+        //(3) Delete card from board
         public static void DeleteCard()
         {
             bool control = true;
             while (control)
             {
-                Console.WriteLine("Öncelikle silmek istediğiniz kartı seçmeniz gerekiyor.");
-                Console.Write("Lütfen kart başlığını yazınız : ");
-                string baslik = Console.ReadLine();
-                // Başlığa ait Key değerini bulma
-                var myKeyToDo = List.toDoLine.FirstOrDefault(CardList => CardList.Value.Baslik == baslik).Key;
-                var myKeyinProg = List.inProgressLine.FirstOrDefault(CardList => CardList.Value.Baslik == baslik).Key;
-                var myKeyDone = List.doneLine.FirstOrDefault(CardList => CardList.Value.Baslik == baslik).Key;
+                ConsoleUı.CardTitle();
+                string? title = Console.ReadLine();
+                // Finding the Key value of the title
+                var myKeyToDo = List.ToDoLine.FirstOrDefault(cardList => cardList.Value.Title == title).Key;
+                var myKeyInPro = List.İnProgressLine.FirstOrDefault(cardList => cardList.Value.Title == title).Key;
+                var myKeyDone = List.DoneLine.FirstOrDefault(cardList => cardList.Value.Title == title).Key;
 
-                if (List.toDoLine.Keys.Contains(myKeyToDo))
+                if (List.ToDoLine.Keys.Contains(myKeyToDo))
                 {
-                    List.toDoLine.Remove(myKeyToDo);
+                    List.ToDoLine.Remove(myKeyToDo);
                     control = false;
                 }
 
-                if (List.inProgressLine.Keys.Contains(myKeyinProg))
+                if (List.İnProgressLine.Keys.Contains(myKeyInPro))
                 {
-                    List.inProgressLine.Remove(myKeyinProg);
+                    List.İnProgressLine.Remove(myKeyInPro);
                     control = false;
                 }
 
-                if (List.doneLine.Keys.Contains(myKeyDone))
+                if (List.DoneLine.Keys.Contains(myKeyDone))
                 {
-                    List.doneLine.Remove(myKeyDone);
+                    List.DoneLine.Remove(myKeyDone);
                     control = false;
                 }
 
@@ -65,7 +63,7 @@ namespace ToDo
                 {
                     if (control == false)
                     {
-                        Console.WriteLine("Silme başarılı.");
+                        Console.WriteLine("Deletion successful.");
                         Console.WriteLine();
                     }
 
@@ -74,8 +72,8 @@ namespace ToDo
                         bool control2 = true;
                         while (control2)
                         {
-                            ConsoleUI.TwoFactorSelectionUI();
-                            int number = int.Parse(Console.ReadLine());
+                            ConsoleUı.TwoFactorSelectionUı();
+                            int number = int.Parse(Console.ReadLine() ?? string.Empty);
                             if (number == 1)
                             {
                                 control2 = false;
@@ -91,7 +89,7 @@ namespace ToDo
 
                             else if (number > 2)
                             {
-                                ConsoleUI.NoSelectionFoundUI();
+                                ConsoleUı.NoSelectionFoundUı();
                             }
                         }
                     }
@@ -99,7 +97,7 @@ namespace ToDo
             }
         }
 
-        //(4) Kart Taşı
+        //(4) Move card
         public static void MoveCard()
         {
             bool select = true;
@@ -107,34 +105,33 @@ namespace ToDo
             {
                 try
                 {
-                    Console.WriteLine("Öncelikle taşımak istediğiniz kartı seçmeniz gerekiyor.");
-                    Console.Write("Lütfen kart başlığını yazınız : ");
-                    string baslik = Console.ReadLine();
-                    var myKeyToDo = List.toDoLine.FirstOrDefault(CardList => CardList.Value.Baslik == baslik).Key;
-                    var myKeyinProg = List.inProgressLine.FirstOrDefault(CardList => CardList.Value.Baslik == baslik).Key;
-                    var myKeyDone = List.doneLine.FirstOrDefault(CardList => CardList.Value.Baslik == baslik).Key;
+                    ConsoleUı.CardTitle();
+                    string? title = Console.ReadLine();
+                    var myKeyToDo = List.ToDoLine.FirstOrDefault(cardList => cardList.Value.Title == title).Key;
+                    var myKeyInPro = List.İnProgressLine.FirstOrDefault(cardList => cardList.Value.Title == title).Key;
+                    var myKeyDone = List.DoneLine.FirstOrDefault(cardList => cardList.Value.Title == title).Key;
 
-                    if (List.toDoLine.Keys.Contains(myKeyToDo) || List.inProgressLine.Keys.Contains(myKeyinProg) || List.doneLine.Keys.Contains(myKeyDone))
+                    if (List.ToDoLine.Keys.Contains(myKeyToDo) || List.İnProgressLine.Keys.Contains(myKeyInPro) || List.DoneLine.Keys.Contains(myKeyDone))
                     {
-                        if (List.toDoLine.Keys.Contains(myKeyToDo))
+                        if (List.ToDoLine.Keys.Contains(myKeyToDo))
                         {
-                            NewCardInformation(List.toDoLine, myKeyToDo);
-                            ConsoleUI.CardInfoFoundUI(myKeyToDo, List.toDoLine);
+                            NewCardInformation(List.ToDoLine, myKeyToDo);
+                            ConsoleUı.CardInfoFoundUı(myKeyToDo, List.ToDoLine);
                             Console.WriteLine("Line        : TODO");
                             select = false;
                         }
-                        else if (List.inProgressLine.Keys.Contains(myKeyinProg))
+                        else if (List.İnProgressLine.Keys.Contains(myKeyInPro))
                         {
-                            NewCardInformation(List.inProgressLine, myKeyinProg);
-                            ConsoleUI.CardInfoFoundUI(myKeyinProg, List.inProgressLine);
+                            NewCardInformation(List.İnProgressLine, myKeyInPro);
+                            ConsoleUı.CardInfoFoundUı(myKeyInPro, List.İnProgressLine);
                             Console.WriteLine("Line        : IN PROGRESS");
                             select = false;
                         }
 
-                        else if (List.doneLine.Keys.Contains(myKeyDone))
+                        else if (List.DoneLine.Keys.Contains(myKeyDone))
                         {
-                            NewCardInformation(List.doneLine, myKeyDone);
-                            ConsoleUI.CardInfoFoundUI(myKeyDone, List.doneLine);
+                            NewCardInformation(List.DoneLine, myKeyDone);
+                            ConsoleUı.CardInfoFoundUı(myKeyDone, List.DoneLine);
                             Console.WriteLine("Line        : DONE");
                             select = false;
                         }
@@ -143,88 +140,88 @@ namespace ToDo
                         Console.WriteLine("(1) TODO");
                         Console.WriteLine("(2) IN PROGRESS");
                         Console.WriteLine("(3) DONE");
-                        Console.Write("Lütfen taşımak istediğiniz Line'ı seçiniz : ");
-                        string secim = Console.ReadLine();
+                        Console.Write("Please select the Line you want to move : ");
+                        string? choose = Console.ReadLine();
 
-                        if (secim == "1" || secim == "2" || secim == "3")
+                        if (choose == "1" || choose == "2" || choose == "3")
                         {
-                            if (secim == "1")
+                            if (choose == "1")
                             {
 
-                                if (List.toDoLine.Keys.Contains(myKeyToDo))
+                                if (List.ToDoLine.Keys.Contains(myKeyToDo))
                                 {
 
-                                    List.toDoLine.Add(myKeyToDo, new CardList(_baslik, _icerik, _atananKisi, _buyukluk));
-                                    List.inProgressLine.Remove(myKeyinProg);
-                                    List.doneLine.Remove(myKeyDone);
+                                    List.ToDoLine.Add(myKeyToDo, new CardList(_title, _content, _person, _size));
+                                    List.İnProgressLine.Remove(myKeyInPro);
+                                    List.DoneLine.Remove(myKeyDone);
                                 }
-                                else if (List.inProgressLine.Keys.Contains(myKeyinProg))
+                                else if (List.İnProgressLine.Keys.Contains(myKeyInPro))
                                 {
 
-                                    List.toDoLine.Add(myKeyinProg, new CardList(_baslik, _icerik, _atananKisi, _buyukluk));
-                                    List.inProgressLine.Remove(myKeyinProg);
-                                    List.doneLine.Remove(myKeyDone);
+                                    List.ToDoLine.Add(myKeyInPro, new CardList(_title, _content, _person, _size));
+                                    List.İnProgressLine.Remove(myKeyInPro);
+                                    List.DoneLine.Remove(myKeyDone);
                                 }
 
-                                else if (List.doneLine.Keys.Contains(myKeyDone))
+                                else if (List.DoneLine.Keys.Contains(myKeyDone))
                                 {
 
-                                    List.toDoLine.Add(myKeyDone, new CardList(_baslik, _icerik, _atananKisi, _buyukluk));
-                                    List.inProgressLine.Remove(myKeyinProg);
-                                    List.doneLine.Remove(myKeyDone);
+                                    List.ToDoLine.Add(myKeyDone, new CardList(_title, _content, _person, _size));
+                                    List.İnProgressLine.Remove(myKeyInPro);
+                                    List.DoneLine.Remove(myKeyDone);
 
                                 }
                                 select = false;
                             }
 
-                            else if (secim == "2")
+                            else if (choose == "2")
                             {
-                                if (List.toDoLine.Keys.Contains(myKeyToDo))
+                                if (List.ToDoLine.Keys.Contains(myKeyToDo))
                                 {
-                                    List.inProgressLine.Add(myKeyToDo, new CardList(_baslik, _icerik, _atananKisi, _buyukluk));
-                                    List.toDoLine.Remove(myKeyToDo);
-                                    List.doneLine.Remove(myKeyDone);
+                                    List.İnProgressLine.Add(myKeyToDo, new CardList(_title, _content, _person, _size));
+                                    List.ToDoLine.Remove(myKeyToDo);
+                                    List.DoneLine.Remove(myKeyDone);
                                 }
-                                else if (List.inProgressLine.Keys.Contains(myKeyinProg))
+                                else if (List.İnProgressLine.Keys.Contains(myKeyInPro))
                                 {
-                                    List.inProgressLine.Add(myKeyinProg, new CardList(_baslik, _icerik, _atananKisi, _buyukluk));
-                                    List.toDoLine.Remove(myKeyToDo);
-                                    List.doneLine.Remove(myKeyDone);
+                                    List.İnProgressLine.Add(myKeyInPro, new CardList(_title, _content, _person, _size));
+                                    List.ToDoLine.Remove(myKeyToDo);
+                                    List.DoneLine.Remove(myKeyDone);
                                 }
 
-                                else if (List.doneLine.Keys.Contains(myKeyDone))
+                                else if (List.DoneLine.Keys.Contains(myKeyDone))
                                 {
-                                    List.inProgressLine.Add(myKeyDone, new CardList(_baslik, _icerik, _atananKisi, _buyukluk));
-                                    List.toDoLine.Remove(myKeyToDo);
-                                    List.doneLine.Remove(myKeyDone);
+                                    List.İnProgressLine.Add(myKeyDone, new CardList(_title, _content, _person, _size));
+                                    List.ToDoLine.Remove(myKeyToDo);
+                                    List.DoneLine.Remove(myKeyDone);
                                 }
 
                                 select = false;
                             }
 
-                            else if (secim == "3")
+                            else if (choose == "3")
                             {
-                                if (List.toDoLine.Keys.Contains(myKeyToDo))
+                                if (List.ToDoLine.Keys.Contains(myKeyToDo))
                                 {
 
-                                    List.doneLine.Add(myKeyToDo, new CardList(_baslik, _icerik, _atananKisi, _buyukluk));
-                                    List.toDoLine.Remove(myKeyToDo);
-                                    List.inProgressLine.Remove(myKeyinProg);
+                                    List.DoneLine.Add(myKeyToDo, new CardList(_title, _content, _person, _size));
+                                    List.ToDoLine.Remove(myKeyToDo);
+                                    List.İnProgressLine.Remove(myKeyInPro);
                                 }
-                                else if (List.inProgressLine.Keys.Contains(myKeyinProg))
+                                else if (List.İnProgressLine.Keys.Contains(myKeyInPro))
                                 {
 
-                                    List.doneLine.Add(myKeyinProg, new CardList(_baslik, _icerik, _atananKisi, _buyukluk));
-                                    List.toDoLine.Remove(myKeyToDo);
-                                    List.inProgressLine.Remove(myKeyinProg);
+                                    List.DoneLine.Add(myKeyInPro, new CardList(_title, _content, _person, _size));
+                                    List.ToDoLine.Remove(myKeyToDo);
+                                    List.İnProgressLine.Remove(myKeyInPro);
                                 }
 
-                                else if (List.doneLine.Keys.Contains(myKeyDone))
+                                else if (List.DoneLine.Keys.Contains(myKeyDone))
                                 {
 
-                                    List.doneLine.Add(myKeyDone, new CardList(_baslik, _icerik, _atananKisi, _buyukluk));
-                                    List.toDoLine.Remove(myKeyToDo);
-                                    List.inProgressLine.Remove(myKeyinProg);
+                                    List.DoneLine.Add(myKeyDone, new CardList(_title, _content, _person, _size));
+                                    List.ToDoLine.Remove(myKeyToDo);
+                                    List.İnProgressLine.Remove(myKeyInPro);
                                 }
                                 select = false;
                             }
@@ -232,10 +229,10 @@ namespace ToDo
 
                         else
                         {
-                            ConsoleUI.NoSelectionFoundUI();
+                            ConsoleUı.NoSelectionFoundUı();
                         }
 
-                        Console.WriteLine("İşlem başarılı.");
+                        Console.WriteLine("Transaction successful.");
 
                     }
 
@@ -246,12 +243,12 @@ namespace ToDo
                         {
                             try
                             {
-                                ConsoleUI.TwoFactorSelectionUI();
-                                string s = Console.ReadLine();
+                                ConsoleUı.TwoFactorSelectionUı();
+                                string? s = Console.ReadLine();
 
                                 if (s == "1")
                                 {
-                                    Console.WriteLine("İşlem sonlandırıldı.");
+                                    Console.WriteLine("Process terminated.");
                                     b = false;
                                     select = false;
                                 }
@@ -261,22 +258,22 @@ namespace ToDo
                                     b = false;
                                 }
                             }
-                            catch (System.Exception)
+                            catch (Exception)
                             {
-                                ConsoleUI.NoSelectionFoundUI();
+                                ConsoleUı.NoSelectionFoundUı();
                                 Console.WriteLine();
                             }
                         }
                     }
                 }
-                catch (System.Exception)
+                catch (Exception)
                 {
-                    ConsoleUI.TwoFactorSelectionUI();
+                    ConsoleUı.TwoFactorSelectionUı();
                 }
             }
         }
 
-        //(05) Kart Güncelle
+        //(05) Update card
 
         public static void UpdateCard()
         {
@@ -286,124 +283,126 @@ namespace ToDo
             {
                 try
                 {
-                    Console.WriteLine("Öncelikle güncellemek istediğiniz kartı seçmeniz gerekiyor.");
-                    Console.Write("Lütfen kart başlığını yazınız : ");
-                    string baslik = Console.ReadLine();
-                    var myKeyToDo = List.toDoLine.FirstOrDefault(CardList => CardList.Value.Baslik == baslik).Key;
-                    var myKeyinProg = List.inProgressLine.FirstOrDefault(CardList => CardList.Value.Baslik == baslik).Key;
-                    var myKeyDone = List.doneLine.FirstOrDefault(CardList => CardList.Value.Baslik == baslik).Key;
+                    ConsoleUı.CardTitle();
+                    string? title = Console.ReadLine();
+                    var myKeyToDo = List.ToDoLine.FirstOrDefault(cardList => cardList.Value.Title == title).Key;
+                    var myKeyInPro = List.İnProgressLine.FirstOrDefault(cardList => cardList.Value.Title == title).Key;
+                    var myKeyDone = List.DoneLine.FirstOrDefault(cardList => cardList.Value.Title == title).Key;
 
-                    if (List.toDoLine.Keys.Contains(myKeyToDo))
-                        select = UpdateNewCardAdd(List.toDoLine, myKeyToDo);
+                    if (List.ToDoLine.Keys.Contains(myKeyToDo))
+                        select = UpdateNewCardAdd(List.ToDoLine, myKeyToDo);
 
-                    if (List.inProgressLine.Keys.Contains(myKeyinProg))
-                        select = UpdateNewCardAdd(List.inProgressLine, myKeyinProg);
+                    if (List.İnProgressLine.Keys.Contains(myKeyInPro))
+                        select = UpdateNewCardAdd(List.İnProgressLine, myKeyInPro);
 
-                    if (List.doneLine.Keys.Contains(myKeyDone))
-                        select = UpdateNewCardAdd(List.doneLine, myKeyDone);
+                    if (List.DoneLine.Keys.Contains(myKeyDone))
+                        select = UpdateNewCardAdd(List.DoneLine, myKeyDone);
                 }
-                catch (System.Exception)
+                catch (Exception)
                 {
-                    ConsoleUI.TwoFactorSelectionUI();
+                    ConsoleUı.TwoFactorSelectionUı();
                 }
 
             } while (select);
         }
 
 
-        public static void NewCardInformation(Dictionary<int, CardList> list, int keyValue)
+        private static void NewCardInformation(Dictionary<int, CardList> list, int keyValue)
         {
-            _baslik = list[keyValue].Baslik;
-            _icerik = list[keyValue].Icerik;
-            _atananKisi = list[keyValue].AtananKisi;
-            _buyukluk = list[keyValue].Buyukluk;
+            _title = list[keyValue].Title;
+            _content = list[keyValue].Content;
+            _person = list[keyValue].Person;
+            _size = list[keyValue].Size;
         }
-        public static bool UpdateNewCardAdd(Dictionary<int, CardList> list, int keyValue)
+
+        private static bool UpdateNewCardAdd(Dictionary<int, CardList> list, int keyValue)
         {
             list.Remove(keyValue);
-            Console.Write("Başlık Giriniz                                 : ");
-            string _baslik = Console.ReadLine();
-            Console.Write("İçerik Giriniz                                 : ");
-            string _icerik = Console.ReadLine();
-            Console.Write("Kişi Giriniz                                   : ");
-            string _atananKisi = Console.ReadLine();
-            string _buyukluk = GetBuyukluk();
-            list.Add(keyValue, new CardList(_baslik, _icerik, _atananKisi, _buyukluk));
+            Console.Write("Enter Title                                 : ");
+            string? title = Console.ReadLine();
+            Console.Write("Enter Content                               : ");
+            string? content = Console.ReadLine();
+            Console.Write("Enter Person                                : ");
+            string? person = Console.ReadLine();
+            string? size = GetSize();
+            list.Add(keyValue, new CardList(title, content, person, size));
             return false;
         }
-        public static void ToDoLine(int id)
+
+        private static void ToDoLine(int id)
         {
-            ConsoleUI.ListBoardUI("TODO Line");
-            ListSystem(id, List.toDoLine);
-            ConsoleUI.ThreeSpace();
+            ConsoleUı.ListBoardUı("TODO Line");
+            ListSystem(id, List.ToDoLine);
+            ConsoleUı.ThreeSpace();
         }
 
-        public static void InProgressLine(int id)
+        private static void InProgressLine(int id)
         {
-            ConsoleUI.ListBoardUI("IN PROGRESS Line");
-            ListSystem(id, List.inProgressLine);
-            ConsoleUI.ThreeSpace();
+            ConsoleUı.ListBoardUı("IN PROGRESS Line");
+            ListSystem(id, List.İnProgressLine);
+            ConsoleUı.ThreeSpace();
 
         }
-        public static void DoneLine(int id)
+
+        private static void DoneLine(int id)
         {
-            ConsoleUI.ListBoardUI("DONE Line");
-            ListSystem(id, List.doneLine);
-            ConsoleUI.ThreeSpace();
+            ConsoleUı.ListBoardUı("DONE Line");
+            ListSystem(id, List.DoneLine);
+            ConsoleUı.ThreeSpace();
         }
-        
-        public static void ListSystem(int id, Dictionary<int, CardList> list)
+
+        private static void ListSystem(int id, Dictionary<int, CardList> list)
         {
             if (list.Count == 0)
                 Console.WriteLine("~ BOŞ ~");
             else
             {
-                foreach (var item in list)
+                foreach (var listElement in list)
                 {
-                    if (id == item.Key)
+                    if (id == listElement.Key)
                     {
-                        Console.WriteLine("Başlık      : {0}", item.Value.Baslik);
-                        Console.WriteLine("İçerik      : {0}", item.Value.Icerik);
-                        Console.WriteLine("Atanan Kişi : {0}", item.Value.AtananKisi);
-                        Console.WriteLine("Büyüklük    : {0}", item.Value.Buyukluk);
+                        Console.WriteLine("Title      : {0}", listElement.Value.Title);
+                        Console.WriteLine("Content    : {0}", listElement.Value.Content);
+                        Console.WriteLine("Person     : {0}", listElement.Value.Person);
+                        Console.WriteLine("Size       : {0}", listElement.Value.Size);
                         Console.WriteLine("-");
                     }
                 }
             }
         }
 
-        public enum Buyukluk { XS, S, M, L, XL }
+        private enum Size { Xs, S, M, L, Xl }
 
-        public static string GetBuyukluk()
+        private static string? GetSize()
         {
             try
             {
-                Console.Write("Büyüklük Seçiniz -> XS(1),S(2),M(3),L(4),XL(5) : ");
-                int number = int.Parse(Console.ReadLine());
+                Console.Write("Choose Size -> XS(1),S(2),M(3),L(4),XL(5) : ");
+                int number = int.Parse(Console.ReadLine() ?? string.Empty);
 
                 switch (number)
                 {
                     case 1:
-                        return Buyukluk.XS.ToString();
+                        return Size.Xs.ToString();
                     case 2:
-                        return Buyukluk.S.ToString();
+                        return Size.S.ToString();
                     case 3:
-                        return Buyukluk.M.ToString();
+                        return Size.M.ToString();
                     case 4:
-                        return Buyukluk.L.ToString();
+                        return Size.L.ToString();
                     case 5:
-                        return Buyukluk.XL.ToString();
+                        return Size.Xl.ToString();
                     default:
-                        ConsoleUI.NoSelectionFoundUI();
+                        ConsoleUı.NoSelectionFoundUı();
                         Console.WriteLine();
-                        return GetBuyukluk();
+                        return GetSize();
                 }
             }
-            catch (System.Exception)
+            catch (Exception)
             {
-                ConsoleUI.NoSelectionFoundUI();
+                ConsoleUı.NoSelectionFoundUı();
                 Console.WriteLine();
-                return GetBuyukluk();
+                return GetSize();
             }
         }
     }

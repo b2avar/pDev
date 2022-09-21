@@ -1,49 +1,44 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace ToDo
+﻿namespace ToDo
 {
-    class Program
+    static class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            bool conTinue = true;
+            bool conTine;
 
             do
             {
                 switch (GetChoose())
                 {
                     case 1:
-                        //Board Listele
+                        // List board
                         ListBoard();
                         break;
                     case 2:
-                        //Kart Ekle
+                        // Add card
                         AddCard();
                         break;
                     case 3:
-                        //Kart Sil
+                        // Delete card
                         Controls.DeleteCard();
                         break;
                     case 4:
-                        //Kart Taşı
+                        // Move card
                         Controls.MoveCard();
                         break;
                     case 5:
-                        //Kart Güncelle
+                        // Update card
                         Controls.UpdateCard();
                         break;
                     case 6:
-                        //Çıkış
-                        Console.WriteLine("Çıkış yapılıyor...");
-                        break;
-                    default:
+                        // Exit
+                        Console.WriteLine("Checking out...");
                         break;
                 }
 
-                conTinue = AnotherAction();
+                conTine = AnotherAction();
 
-            } while (conTinue);
+            } while (conTine);
         }
         static bool AnotherAction()
         {
@@ -52,52 +47,52 @@ namespace ToDo
             {
                 try
                 {
-                    Console.Write("Başka bir işlem yapmak istiyor musunuz? (y/n) : ");
-                    char answer = char.Parse(Console.ReadLine());
+                    Console.Write("Do you want to take another action? (y/n) : ");
+                    char answer = char.Parse(Console.ReadLine() ?? string.Empty);
 
                     if (answer == 'y')
                     {
-                        Console.WriteLine("İşlem Tamamladı.");
+                        Console.WriteLine("Process completed.");
                         control = false;
                         return true;
                     }
                     else if (answer == 'n')
                     {
-                        Console.WriteLine("İşlem Tamamladı.");
+                        Console.WriteLine("Process completed.");
                         control = false;
                         return false;
                     }
                 }
-                catch (System.Exception)
+                catch (Exception)
                 {
-                    ConsoleUI.NoSelectionFoundUI();
+                    ConsoleUı.NoSelectionFoundUı();
 
                 }
             } while (control);
 
-            ConsoleUI.NoSelectionFoundUI();
+            ConsoleUı.NoSelectionFoundUı();
             return true;
         }
         static int GetChoose()
         {
             try
             {
-                ConsoleUI.MainMenu();
+                ConsoleUı.MainMenu();
                 sbyte chooseOption = Convert.ToSByte(Console.ReadLine());
 
-                if (chooseOption > 0 && chooseOption < 7)
+                if (chooseOption is > 0 and < 7)
                 {
                     return chooseOption;
                 }
                 else
                 {
-                    ConsoleUI.NoSelectionFoundUI();
+                    ConsoleUı.NoSelectionFoundUı();
                     return GetChoose();
                 }
             }
-            catch (System.Exception)
+            catch (Exception)
             {
-                ConsoleUI.NoSelectionFoundUI();
+                ConsoleUı.NoSelectionFoundUı();
                 return GetChoose();
             }
         }
@@ -110,8 +105,8 @@ namespace ToDo
             {
                 try
                 {
-                    Console.Write("Lütfen geçerli bir ID numarası giriniz : ");
-                    int id = int.Parse(Console.ReadLine());
+                    Console.Write("Please enter a valid ID number : ");
+                    int id = int.Parse(Console.ReadLine() ?? string.Empty);
 
                     if (TeamMembers.TeamList().Contains(id))
                     {
@@ -121,9 +116,9 @@ namespace ToDo
                         break;
                     }
                 }
-                catch (System.Exception)
+                catch (Exception)
                 {
-                    Console.WriteLine("ID numarası bulunamadı.");
+                    Console.WriteLine("ID number not found.");
                     Console.WriteLine();
                 }
             }
@@ -138,8 +133,8 @@ namespace ToDo
             {
                 try
                 {
-                    Console.Write("Lütfen geçerli bir ID numarası giriniz : ");
-                    int id = int.Parse(Console.ReadLine());
+                    Console.Write("Please enter a valid ID number : ");
+                    int id = int.Parse(Console.ReadLine() ?? string.Empty);
 
                     if (TeamMembers.TeamList().Contains(id))
                     {
@@ -148,9 +143,9 @@ namespace ToDo
                         control = false;
                     }
                 }
-                catch (System.Exception)
+                catch (Exception)
                 {
-                    Console.WriteLine("ID numarası bulunamadı.");
+                    Console.WriteLine("ID number not found.");
                     Console.WriteLine();
                 }
             }

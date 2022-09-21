@@ -1,57 +1,60 @@
-using System;
-using System.Collections.Generic;
-
 namespace ToDo
 {
-    public static class ConsoleUI
+    public static class ConsoleUı
     {
 
         public static void MainMenu()
         {
 
-            Console.WriteLine("ToDo List Menü");
+            Console.WriteLine("ToDo List Menu");
             Console.WriteLine("*******************************************");
 
-            Console.WriteLine("(1) Board Listelemek");
-            Console.WriteLine("(2) Board'a Kart Eklemek");
-            Console.WriteLine("(3) Board'dan Kart Silmek");
-            Console.WriteLine("(4) Kart Taşımak");
-            Console.WriteLine("(5) Kart Güncelle");
-            Console.WriteLine("(6) Çıkış");
-            Console.Write("Lütfen yapmak istediğiniz işlem numarasını giriniz : ");
+            Console.WriteLine("(1) List Board");
+            Console.WriteLine("(2) Add Card to Board");
+            Console.WriteLine("(3) Delete Card from Board");
+            Console.WriteLine("(4) Move Card");
+            Console.WriteLine("(5) Update Card");
+            Console.WriteLine("(6) Exit");
+            Console.Write("Please enter the transaction number you want to make : ");
         }
 
-        public static void NoSelectionFoundUI()
+        public static void NoSelectionFoundUı()
         {
             Console.WriteLine();
-            Console.WriteLine("Seçim bulunamadı!");
-            Console.WriteLine("Lütfen yapmak istediğiniz işleme göre ekranda bulunan karakter ya da numaralardan birini giriniz!");
+            Console.WriteLine("No selection found!");
+            Console.WriteLine("Please enter one of the characters or numbers on the screen according to the operation you want to do.!");
             Console.WriteLine();
         }
 
-        public static void ListBoardUI(string lineName)
+        public static void ListBoardUı(string lineName)
         {
             Console.WriteLine(lineName);
             Console.WriteLine("************************");
             Console.WriteLine();
         }
 
-        public static void TwoFactorSelectionUI()
+        public static void TwoFactorSelectionUı()
         {
-            Console.WriteLine(" Aradığınız krtiterlere uygun kart board'da bulunamadı. Lütfen bir seçim yapınız.");
-            Console.WriteLine("* İşlemi sonlandırmak için : (1)");
-            Console.WriteLine("* Yeniden denemek için     : (2)");
+            Console.WriteLine(" The card matching your search criteria was not found on the board. Please make a selection.");
+            Console.WriteLine("* to terminate the process : (1)");
+            Console.WriteLine("* to try again             : (2)");
         }
 
-        public static void CardInfoFoundUI(int key, Dictionary<int, CardList> list)
+        public static void CardInfoFoundUı(int key, Dictionary<int, CardList> list)
         {
-            Console.WriteLine("Bulunan Kart Bilgileri:");
+            Console.WriteLine("Card Information Found:");
             Console.WriteLine("**************************************");
-            Console.WriteLine("Başlık      : {0}", list[key].Baslik);
-            Console.WriteLine("İçerik      : {0}", list[key].Icerik);
-            Console.WriteLine("Atanan Kişi : {0}", list[key].AtananKisi);
-            Console.WriteLine("Büyüklük    : {0}", list[key].Buyukluk);
+            Console.WriteLine("Title      : {0}", list[key].Title);
+            Console.WriteLine("Content    : {0}", list[key].Content);
+            Console.WriteLine("Person     : {0}", list[key].Person);
+            Console.WriteLine("Size       : {0}", list[key].Size);
         }
+
+        public static void CardTitle()
+        {
+            Console.WriteLine("First you need to choose the card you want to move or update.");
+            Console.Write("Please write the card title : ");
+        } 
 
         public static void ThreeSpace()
         {

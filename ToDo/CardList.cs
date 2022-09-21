@@ -1,26 +1,20 @@
-using System;
-using System.Collections;
-
 namespace ToDo{
 
     public class CardList{
+        public string? Title { get; set; }
 
-        private string baslik;
-        private string ıcerik;
-        private string atananKisi;
-        private string buyukluk;
+        public string? Content { get; set; }
 
-        public string Baslik { get => baslik; set => baslik = value; }
-        public string Icerik { get => ıcerik; set => ıcerik = value; }
-        public string AtananKisi { get => atananKisi; set => atananKisi = value; }
-        public string Buyukluk { get => buyukluk; set => buyukluk = value; }
+        public string? Person { get; set; }
 
-        public CardList(string baslik, string icerik, string atananKisi, string buyukluk)
+        public string? Size { get; set; }
+
+        public CardList(string? title, string? content, string? person, string? size)
         {
-            this.Baslik = baslik;
-            this.Icerik = icerik;
-            this.AtananKisi = atananKisi;
-            this.Buyukluk = buyukluk;
+            this.Title = title;
+            this.Content = content;
+            this.Person = person;
+            this.Size = size;
         }
     }
 }
