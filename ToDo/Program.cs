@@ -1,154 +1,142 @@
-﻿namespace ToDo
+﻿namespace ToDo;
+
+internal static class Program
 {
-    static class Program
+    private static void Main()
     {
-        static void Main()
+        bool conTine;
+
+        do
         {
-            bool conTine;
-
-            do
+            switch (GetChoose())
             {
-                switch (GetChoose())
-                {
-                    case 1:
-                        // List board
-                        ListBoard();
-                        break;
-                    case 2:
-                        // Add card
-                        AddCard();
-                        break;
-                    case 3:
-                        // Delete card
-                        Controls.DeleteCard();
-                        break;
-                    case 4:
-                        // Move card
-                        Controls.MoveCard();
-                        break;
-                    case 5:
-                        // Update card
-                        Controls.UpdateCard();
-                        break;
-                    case 6:
-                        // Exit
-                        Console.WriteLine("Checking out...");
-                        break;
-                }
+                case 1:
+                    // List board
+                    ListBoard();
+                    break;
+                case 2:
+                    // Add card
+                    AddCard();
+                    break;
+                case 3:
+                    // Delete card
+                    Controls.DeleteCard();
+                    break;
+                case 4:
+                    // Move card
+                    Controls.MoveCard();
+                    break;
+                case 5:
+                    // Update card
+                    Controls.UpdateCard();
+                    break;
+                case 6:
+                    // Exit
+                    Console.WriteLine("Checking out...");
+                    break;
+            }
 
-                conTine = AnotherAction();
+            conTine = AnotherAction();
+        } while (conTine);
+    }
 
-            } while (conTine);
-        }
-        static bool AnotherAction()
-        {
-            bool control = true;
-            do
-            {
-                try
-                {
-                    Console.Write("Do you want to take another action? (y/n) : ");
-                    char answer = char.Parse(Console.ReadLine() ?? string.Empty);
-
-                    if (answer == 'y')
-                    {
-                        Console.WriteLine("Process completed.");
-                        control = false;
-                        return true;
-                    }
-                    else if (answer == 'n')
-                    {
-                        Console.WriteLine("Process completed.");
-                        control = false;
-                        return false;
-                    }
-                }
-                catch (Exception)
-                {
-                    ConsoleUı.NoSelectionFoundUı();
-
-                }
-            } while (control);
-
-            ConsoleUı.NoSelectionFoundUı();
-            return true;
-        }
-        static int GetChoose()
+    private static bool AnotherAction()
+    {
+        var control = true;
+        do
         {
             try
             {
-                ConsoleUı.MainMenu();
-                sbyte chooseOption = Convert.ToSByte(Console.ReadLine());
+                Console.Write("Do you want to take another action? (y/n) : ");
+                var answer = char.Parse(Console.ReadLine() ?? string.Empty);
 
-                if (chooseOption is > 0 and < 7)
+                if (answer == 'y')
                 {
-                    return chooseOption;
+                    Console.WriteLine("Process completed.");
+                    control = false;
+                    return true;
                 }
-                else
+
+                if (answer == 'n')
                 {
-                    ConsoleUı.NoSelectionFoundUı();
-                    return GetChoose();
+                    Console.WriteLine("Process completed.");
+                    control = false;
+                    return false;
                 }
             }
             catch (Exception)
             {
                 ConsoleUı.NoSelectionFoundUı();
-                return GetChoose();
             }
-        }
+        } while (control);
 
-        static void AddCard()
+        ConsoleUı.NoSelectionFoundUı();
+        return true;
+    }
+
+    private static int GetChoose()
+    {
+        try
         {
-            bool control = true;
+            ConsoleUı.MainMenu();
+            var chooseOption = Convert.ToSByte(Console.ReadLine());
 
-            while (control)
-            {
-                try
-                {
-                    Console.Write("Please enter a valid ID number : ");
-                    int id = int.Parse(Console.ReadLine() ?? string.Empty);
+            if (chooseOption is > 0 and < 7) return chooseOption;
 
-                    if (TeamMembers.TeamList().Contains(id))
-                    {
-
-                        Controls.AddCard(id);
-                        control = false;
-                        break;
-                    }
-                }
-                catch (Exception)
-                {
-                    Console.WriteLine("ID number not found.");
-                    Console.WriteLine();
-                }
-            }
+            ConsoleUı.NoSelectionFoundUı();
+            return GetChoose();
         }
-
-        static void ListBoard()
+        catch (Exception)
         {
+            ConsoleUı.NoSelectionFoundUı();
+            return GetChoose();
+        }
+    }
 
-            bool control = true;
+    private static void AddCard()
+    {
+        var control = true;
 
-            while (control)
+        while (control)
+            try
             {
-                try
-                {
-                    Console.Write("Please enter a valid ID number : ");
-                    int id = int.Parse(Console.ReadLine() ?? string.Empty);
+                Console.Write("Please enter a valid ID number : ");
+                var id = int.Parse(Console.ReadLine() ?? string.Empty);
 
-                    if (TeamMembers.TeamList().Contains(id))
-                    {
-
-                        Controls.ListBoard(id);
-                        control = false;
-                    }
-                }
-                catch (Exception)
+                if (TeamMembers.TeamList().Contains(id))
                 {
-                    Console.WriteLine("ID number not found.");
-                    Console.WriteLine();
+                    Controls.AddCard(id);
+                    control = false;
+                    break;
                 }
             }
-        }
+            catch (Exception)
+            {
+                Console.WriteLine("ID number not found.");
+                Console.WriteLine();
+            }
+    }
+
+    private static void ListBoard()
+    {
+        var control = true;
+
+        while (control)
+            try
+            {
+                Console.Write("Please enter a valid ID number : ");
+                var id = int.Parse(Console.ReadLine() ?? string.Empty);
+
+                if (TeamMembers.TeamList().Contains(id))
+                {
+                    Controls.ListBoard(id);
+                    control = false;
+                }
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("ID number not found.");
+                Console.WriteLine();
+            }
     }
 }

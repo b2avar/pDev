@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Tednokent\\CSharp\\pDev\\pDev\\ToDo\\ToDo.csproj": {}
+    "C:\\Users\\Tednokent\\RiderProjects\\ToDo\\ToDo\\ToDo.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Tednokent\\CSharp\\pDev\\pDev\\ToDo\\ToDo.csproj": {
+    "C:\\Users\\Tednokent\\RiderProjects\\ToDo\\ToDo\\ToDo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Tednokent\\CSharp\\pDev\\pDev\\ToDo\\ToDo.csproj",
+        "projectUniqueName": "C:\\Users\\Tednokent\\RiderProjects\\ToDo\\ToDo\\ToDo.csproj",
         "projectName": "ToDo",
-        "projectPath": "D:\\Users\\Tednokent\\CSharp\\pDev\\pDev\\ToDo\\ToDo.csproj",
+        "projectPath": "C:\\Users\\Tednokent\\RiderProjects\\ToDo\\ToDo\\ToDo.csproj",
         "packagesPath": "C:\\Users\\Tednokent\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Tednokent\\CSharp\\pDev\\pDev\\ToDo\\obj\\",
+        "outputPath": "C:\\Users\\Tednokent\\RiderProjects\\ToDo\\ToDo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
