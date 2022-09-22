@@ -70,31 +70,7 @@ public static class Controls
                 else
                 {
                     var control2 = true;
-                    do
-                    {
-                        try
-                        {
-                            ConsoleUı.TwoFactorSelectionUı();
-                            var s = Console.ReadLine();
-
-                            if (s == "1")
-                            {
-                                Console.WriteLine("Process terminated.");
-                                control2 = false;
-                                control = false;
-                            }
-
-                            else if (s == "2")
-                            {
-                                control2 = false;
-                            }
-                        }
-                        catch (Exception)
-                        {
-                            ConsoleUı.NoSelectionFoundUı();
-                            Console.WriteLine();
-                        }
-                    } while (control2);
+                    Selection(control2, out control);
                 }
             }
         } while (control);
@@ -244,31 +220,7 @@ public static class Controls
                         catch (Exception)
                         {
                             var b = true;
-                            do
-                            {
-                                try
-                                {
-                                    ConsoleUı.TwoFactorSelectionUı();
-                                    var s = Console.ReadLine();
-
-                                    if (s == "1")
-                                    {
-                                        Console.WriteLine("Process terminated.");
-                                        b = false;
-                                        select = false;
-                                    }
-
-                                    else if (s == "2")
-                                    {
-                                        b = false;
-                                    }
-                                }
-                                catch (Exception)
-                                {
-                                    ConsoleUı.NoSelectionFoundUı();
-                                    Console.WriteLine();
-                                }
-                            } while (b);
+                            Selection(b, out select);
                         }
                     } while (c);
                 }
@@ -276,31 +228,7 @@ public static class Controls
                 else
                 {
                     var cnt = true;
-                    do
-                    {
-                        try
-                        {
-                            ConsoleUı.TwoFactorSelectionUı();
-                            var s = Console.ReadLine();
-
-                            if (s == "1")
-                            {
-                                Console.WriteLine("Process terminated.");
-                                cnt = false;
-                                select = false;
-                            }
-
-                            else if (s == "2")
-                            {
-                                cnt = false;
-                            }
-                        }
-                        catch (Exception)
-                        {
-                            ConsoleUı.NoSelectionFoundUı();
-                            Console.WriteLine();
-                        }
-                    } while (cnt);
+                    Selection(cnt, out select);
                 }
             }
 
@@ -346,31 +274,7 @@ public static class Controls
                 else
                 {
                     var control = true;
-                    do
-                    {
-                        try
-                        {
-                            ConsoleUı.TwoFactorSelectionUı();
-                            var s = Console.ReadLine();
-
-                            if (s == "1")
-                            {
-                                Console.WriteLine("Process terminated.");
-                                control = false;
-                                select = false;
-                            }
-
-                            else if (s == "2")
-                            {
-                                control = false;
-                            }
-                        }
-                        catch (Exception)
-                        {
-                            ConsoleUı.NoSelectionFoundUı();
-                            Console.WriteLine();
-                        }
-                    } while (control);
+                    Selection(control, out select);
                 }
             }
             catch (Exception)
@@ -380,6 +284,37 @@ public static class Controls
         } while (select);
     }
 
+
+    private static void Selection(bool control, out bool select)
+    {
+        do
+        {
+            try
+            {
+                ConsoleUı.TwoFactorSelectionUı();
+                var s = Console.ReadLine();
+
+                if (s == "1")
+                {
+                    Console.WriteLine("Process terminated.");
+                    control = false;
+                    select = false;
+                }
+
+                else if (s == "2")
+                {
+                    control = false;
+                }
+            }
+            catch (Exception)
+            {
+                ConsoleUı.NoSelectionFoundUı();
+                Console.WriteLine();
+            }
+        } while (control);
+
+        select = true;
+    }
 
     private static void NewCardInformation(Dictionary<int, CardList> list, int keyValue)
     {
